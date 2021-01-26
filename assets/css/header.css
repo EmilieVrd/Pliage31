@@ -1,0 +1,48 @@
+
+.dropdown-menu {
+  color: #212529;
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+}
+
+.dropdown-item 
+{
+  margin-top: 0.25rem;
+  padding: 1rem 1.5rem;
+  color: #212529;
+  background-color: #f8f9fa;
+  border: 0;
+}
+
+.dropdown-item:hover,
+{
+  color: #16181b;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+
+@media all and (min-width: 992px) 
+{
+
+	.navbar .nav-item .dropdown-menu
+	{ 
+		display: none; 
+	}
+
+	.navbar .nav-item:hover .nav-link
+	{ 
+		color: blue;  
+	}
+
+	.navbar .nav-item:hover .dropdown-menu
+	{ 
+		display: block; 
+	}
+
+	.navbar .nav-item .dropdown-menu
+	{ 
+		margin-top:0; 
+	}
+}	
