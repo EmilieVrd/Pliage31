@@ -26,7 +26,7 @@
 
 <!--_________________________________________ SLIDESHOW ___________________________________________-->
 
-
+<div class="container-fluid">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -53,14 +53,13 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
 <!--________________________________________ /SLIDESHOW ___________________________________________-->
 	
 <!--________________________________________ /CARDS ___________________________________________-->
 <section id=""> 
-  <div class="container"> 
-    <!--___1st row___-->
-    <div class="row no-gutters">
-      <div class="col-lg-4">
+  <div class="content-wrapper">
+	  
         <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68027363.jpg?t=1552301316" alt="photo couvertine alu" class="news-card__image">
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Couvertines et Anti-goutte</h2>
@@ -78,8 +77,8 @@
               <a href="#" class="news-card__read-more">En voir plus <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-4">
+     
+
         <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68133538.jpg?t=1553004923" alt="photo finitions portes et fenêtres" class="news-card__image">
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Finitions portes et fenêtres</h2>
@@ -88,8 +87,7 @@
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-4">
+
         <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68036176.jpg?t=1552314854" alt="" class="news-card__image">
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Habillages de façades</h2>
@@ -98,12 +96,7 @@
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!--___2nd row___-->
-    <div class="row no-gutters">
-      <div class="col-2"></div>
-      <div class="col-lg-4">
+
         <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68036186.jpg?t=1552315686" alt="" class="news-card__image">
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Faux-plafonds</h2>
@@ -112,8 +105,8 @@
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-4">
+ 
+
         <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68133586.jpg?t=1553005233" alt="" class="news-card__image">
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Inox pour les cuisines et autres</h2>
@@ -122,11 +115,8 @@
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
-      </div>
-      <div class="col-2"></div>
-    </div>
   </div>
-  </div>
+  
 </section>
 <!--________________________________________ /CARDS ___________________________________________-->
 	
