@@ -1,6 +1,4 @@
-
-<header>
-  	<nav class="navbar navbar-expand-lg">
+ 	<nav class="navbar navbar-expand-lg bg-light">
 
     <a class="navbar-brand" href="#"><img src="assets/images/logo/logo.png" alt="logo"></a>
 
@@ -41,5 +39,4 @@
 
 
     </nav>
-</header>
 
