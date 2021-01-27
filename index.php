@@ -120,25 +120,52 @@
               <a href="#" class="btn btn-primary">Accès à la liste des aluminiums en stock</a> </div>
           </div>
         </div>
-        <div class="col-lg-2">
-          <div class="card" style="width: 12rem;"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29561739.jpg?t=1476981127" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Tôles aciers</p>
+        <div class="col-lg-4">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   Tôles aciers
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <img src="https://www.pliage31.com/s/cc_images/cache_29561739.jpg?t=1476981127"/>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Tôles perforées
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <img src="https://www.pliage31.com/s/cc_images/cache_29561721.jpg?t=1408750801"/>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Tôles larmées
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  <img src="https://www.pliage31.com/s/cc_images/cache_29561742.jpg?t=1408751040"/>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card" style="width: 12rem;"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29561721.jpg?t=1408750801" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Tôles perforées</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2">
-          <div class="card" style="width: 11rem;"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29561742.jpg?t=1408751040" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Tôles larmées</p>
-            </div>
-          </div>
-		  <div class="btn-primary">Dessinez votre pièce les kheys</div>
         </div>
       </div>
     </div>
