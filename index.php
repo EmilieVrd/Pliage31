@@ -60,7 +60,7 @@
 			<div class="col-12 text-center"><h1><span class="gné">Notre savoir-faire</span></h1></div></div>
 <!--________________________________________ /CARDS ___________________________________________-->
 <section id="">
-	<div class="container-fluid">
+	<div class="container">
   <div class="content-wrapper">
 	  
         <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68027363.jpg?t=1552301316" alt="photo couvertine alu" class="news-card__image">
