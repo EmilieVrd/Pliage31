@@ -145,36 +145,41 @@
   </div>
 </div>
 <!--________________________________________ ABOUTUS+MAP ___________________________________________-->
-<div class="container-fluid apropos mt-5">
-  <div class="row">
-    <div class="col-lg-8 text-center">
-      <div class="card-header"><span class="gné">Qui sommes-nous ?</span></div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/img/background.jpg?1604419085" width="500px" class="news-card__image">
-            <div class="news-card__text-wrapper">
-              <div class="news-card__details-wrapper"> </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 my-auto">
-          <p>Situé à Aucamville, Pliage31 est une société de menuiserie métallique. Que vous soyez particulier ou professionnel,nous avons des solutions pour tous vos projets. 
-            Ouvert du Du Lundi au Jeudi de 7h30 à 12h00 et 13h30 à 16h30 et Le Vendredi de 7h30 à 12h00,
-            nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p>
-        </div>
+
+<div class="container-fluid apropos">
+  <div class="container py-2">
+    <div class="row">
+      <div class="col-lg-6 col-12">
+          <img src="assets/images/section/background.jpg" max-height="50px">
+      </div>
+      <div class="col-lg-6 col-12 text-center my-md-5 my-1">
+          <h2><span class="gné">Qui sommes-nous ?</span></h2>
+          <div class="my-5"><p>Situé à Aucamville, Pliage31 est une société de menuiserie métallique. Que vous soyez particulier ou professionnel,nous avons des solutions pour tous vos projets. 
+          Ouvert du Du Lundi au Jeudi de 7h30 à 12h00 et 13h30 à 16h30 et Le Vendredi de 7h30 à 12h00,
+          nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p></div>
       </div>
     </div>
-    <div class="col-lg-4 text-center">
-      <div class="card-header"><span class="gné">Nous trouver</span></div>
-      <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="assets/images/map.png" class="news-card__image"/>
-        <div class="news-card__text-wrapper">
-          <div class="news-card__details-wrapper"> </div>
-        </div>
+  </div>
+
+  <div class="container py-2">
+    <div class="row">
+      <div class="col-lg-6 col-12 text-center my-auto">
+        <h2><span class="gné">Où nous trouver ?</span></h2>
+        <div class="my-5"><p>Situé à Aucamville, Pliage31 est une société de menuiserie métallique. Que vous soyez particulier ou professionnel,nous avons des solutions pour tous vos projets. 
+        Ouvert du Du Lundi au Jeudi de 7h30 à 12h00 et 13h30 à 16h30 et Le Vendredi de 7h30 à 12h00,
+        nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p></div> 
+      </div>
+      <div class="col-lg-6 col-12" width="500px">
+        <img src="assets/images/map/maps.png"/>
       </div>
     </div>
   </div>
 </div>
+
+<!--__________________________________________/WHO______________________________________________-->
+
 <!--________________________________________ /ABOUTUS+MAP ___________________________________________--> 
+
 <!--________________________________________ FOOTER ___________________________________________-->
 <footer class="mt-5">
   <?php require 'footer.php' ;?>

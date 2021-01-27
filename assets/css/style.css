@@ -9,6 +9,7 @@
   --first-theme-color: #036cb0; /*Lighter blue of the three*/
   --second-theme-color: #035483;
   --third-theme-color:  #033651; /*Darkest blue of the three*/
+  --font-theme-color: #b7b5b5;
   --footer-color: #3d3d3d;
 }
 * {
@@ -94,7 +95,7 @@ img {
   overflow: hidden;
   border-radius: 0.5rem;
   flex: 1;
-  min-width: 350px;
+  min-width: 290px;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -334,4 +335,59 @@ img {
 .bs-calltoaction.bs-calltoaction-warning .cta-button .btn,
 .bs-calltoaction.bs-calltoaction-danger .cta-button .btn{
     border-color:#fff;
+}
+
+
+/*--------------------------TITLE----------------------*/
+
+img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.savoirfaire {
+  background-color: white;
+  padding: 10px;
+
+  color: white;
+}
+
+
+/*--------------------------WHO----------------------*/
+
+
+.apropos img
+{
+  border: none;
+  border-radius: 20px;
+}
+
+.apropos p
+{
+  color: var(--font-theme-color);
+}
+
+.apropos .btn
+{
+  font-family: 'Earth', sans-serif;
+  background-color: var(--font-theme-color);
+  border: none;
+  -webkit-box-shadow: 10px 4px 15px 2px #3F3F3F; 
+  box-shadow: 10px 4px 15px 2px #3F3F3F;
+  font-weight: lighter;
+  font-size: 0.9em;
+  padding: 0.75rem 0.40rem;
+}
+
+.gné {
+  font-family: 'Earth', sans-serif;
+  text-shadow: #036cb0 1px 0 10px;
+  color: var(--font-theme-color);
+
+}
+
+.blabla 
+{
+  height: 400px;
 }
