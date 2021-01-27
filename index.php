@@ -55,24 +55,19 @@
 
 <!--________________________________________ /SLIDESHOW ___________________________________________-->
 	
+		<div class="container-fluid savoirfaire mt-5">
+		<div class="row row_savoirfaire">
+			<div class="col-12 text-center"><h1><span class="gné">Notre savoir-faire</span></h1></div></div>
 <!--________________________________________ /CARDS ___________________________________________-->
-<section id=""> 
+<section id="">
+	<div class="container-fluid">
   <div class="content-wrapper">
 	  
         <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68027363.jpg?t=1552301316" alt="photo couvertine alu" class="news-card__image">
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Couvertines et Anti-goutte</h2>
             <div class="news-card__details-wrapper">
-              <p class="news-card__excerpt">
-              <ul>
-                <li>Anti-gouttes / Solins</li>
-                <li>Couvertines droites et arrondies</li>
-                <li>Appuis de fenetres</li>
-                <li>Entourages de fenetre pour ITE</li>
-                </br>
-                Fabrications sur mesures
-              </ul>
-              </p>
+              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
               <a href="#" class="news-card__read-more">En voir plus <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
@@ -108,19 +103,50 @@
 
         <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68133586.jpg?t=1553005233" alt="" class="news-card__image">
           <div class="news-card__text-wrapper">
-            <h2 class="news-card__title">Inox pour les cuisines et autres</h2>
+            <h2 class="news-card__title">Inox pour cuisines et autres</h2>
             <div class="news-card__details-wrapper">
               <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
   </div>
-  
+ </div> 
 </section>
+	</div>
 <!--________________________________________ /CARDS ___________________________________________-->
+	<div class="container-fluid apropos mt-5">
+		<div class="row">
+			<div class="col-lg-8 text-center">
+				<div class="card-header"><span class="gné">Qui sommes-nous ?</span></div>
+					<div class="row">
+						<div class="col-lg-6">
+				        <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/img/background.jpg?1604419085" width="500px" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <div class="news-card__details-wrapper">
+          </div>
+        </div>
+							</div>
+				</div>
+						<div class="col-lg-6 my-auto">
+							<p>Situé à Aucamville, Pliage31 est une société de menuiserie métallique. Que vous soyez particulier ou professionnel,nous avons des solutions pour tous vos projets. 
+Ouvert du Du Lundi au Jeudi de 7h30 à 12h00 et 13h30 à 16h30 et Le Vendredi de 7h30 à 12h00,
+nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p>
+						</div>
+			</div>
+			</div>
+			<div class="col-lg-4 text-center">
+				<div class="card-header"><span class="gné">Nous trouver</span></div>
+								        <div class="news-card"> <a href="#" class="news-card__card-link"></a> <img src="assets/images/map.png" class="news-card__image"/>
+          <div class="news-card__text-wrapper">
+            <div class="news-card__details-wrapper">
+          </div>
+        </div></div>
+			</div>
+		</div>
+	</div>
 	
 <!--________________________________________ /FOOTER ___________________________________________-->
-<footer>
+<footer class="mt-5">
   <?php require 'footer.php' ;?>
 </footer>
 <!--________________________________________ /FOOTER ___________________________________________-->

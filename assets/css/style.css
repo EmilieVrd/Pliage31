@@ -1,7 +1,10 @@
 /*Styling of varibale content in pages*/
 /*See header.css to style the navbar*/
 /*See footer.css to style the page's bottom*/
-
+@font-face{
+	font-family: "Earth";
+	src: url('../fonts/earthorbiter.ttf');
+} 
 :root{
   --first-theme-color: #036cb0; /*Lighter blue of the three*/
   --second-theme-color: #035483;
@@ -14,6 +17,9 @@
   padding: 0;
 }
 body {
+/*background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 36%, rgba(3,108,176,1) 77%, rgba(61,61,61,1) 95%);*/
+	background-color: var(--third-theme-color);
 
 }
 
@@ -23,6 +29,25 @@ img {
   height: auto;
 }
 
+.savoirfaire, .apropos {
+	background-color: rgb(255,255,255,0.75);
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.75);
+}
+.row_savoirfaire {
+	background-color: grey;
+}
+.gné {
+	font-family: 'Earth', sans-serif;
+		text-shadow: #036cb0 1px 0 10px;
+
+}
+.blabla {
+	height: 400px;
+
+}
 /****************************/
 /**********CARD DECK*********/
 /****************************/
@@ -102,6 +127,8 @@ img {
 .news-card__title {
     transition: color 1s ease;
     margin-bottom: .5rem;
+	font-size: 1.5em;
+	text-align: center;
   }
 
 .news-card__post-date {
