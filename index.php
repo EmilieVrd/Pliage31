@@ -32,7 +32,7 @@
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
   <div class="main-text">
     <div class="col-md-12 d-none d-md-block text-center">
-      <h1> Pliage31, professionnel du travail du métal</h1>
+      <h1> Pliage31, professionnel du pliage de métaux</h1>
       <h3> Un savoir-faire éprouvé, catch sentence </h3>
     </div>
   </div>
@@ -101,6 +101,7 @@
         <div class="card-body">
           <h5 class="card-title">Pliage sur-mesure</h5>
           <p class="card-text">Afin de répondre au mieux à vos besoins de pliages nous tenons un large stock de matières.</p>
+			<div class="btn-secondary mx-auto w-25">Dessinez votre pièce</div>
         </div>
       </div>
       <div class="row no-gutters">
@@ -182,8 +183,7 @@
       <div class="col-lg-6 col-12 text-center my-md-5 my-1">
           <h2><span class="gné">Qui sommes-nous ?</span></h2>
           <div class="my-5"><p>Situé à Aucamville, Pliage31 est une société de menuiserie métallique. Que vous soyez particulier ou professionnel,nous avons des solutions pour tous vos projets. 
-          Ouvert du Du Lundi au Jeudi de 7h30 à 12h00 et 13h30 à 16h30 et Le Vendredi de 7h30 à 12h00,
-          nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p></div>
+          </p></div>
       </div>
     </div>
   </div>
@@ -192,9 +192,8 @@
     <div class="row">
       <div class="col-lg-6 col-12 text-center my-auto">
         <h2><span class="gné">Où nous trouver ?</span></h2>
-        <div class="my-5"><p>Situé à Aucamville, Pliage31 est une société de menuiserie métallique. Que vous soyez particulier ou professionnel,nous avons des solutions pour tous vos projets. 
-        Ouvert du Du Lundi au Jeudi de 7h30 à 12h00 et 13h30 à 16h30 et Le Vendredi de 7h30 à 12h00,
-        nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p></div> 
+        <div class="my-5"><p>Ouvert du Du Lundi au Jeudi de <b>7h30 à 12h00</b> et <b>13h30 à 16h30</b> et Le Vendredi de <b>7h30 à 12h00</b>,
+          nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p></div> 
       </div>
       <div class="col-lg-6 col-12" width="500px">
         <img src="assets/images/map/maps.png"/>

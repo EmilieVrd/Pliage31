@@ -38,7 +38,7 @@ img {
     position: absolute;
     top: 50px;
     width: 96.66666666666666%;
-    color: yellow;
+    color: black;
 }
 .btn-min-block
 {
@@ -238,7 +238,10 @@ img {
 
   color: white;
 }
-
+/*--------------------------SURMESURE----------------------*/
+.surmesure {
+	border-radius: 20px;
+}
 
 /*--------------------------WHO----------------------*/
 
