@@ -67,7 +67,7 @@
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Couvertines et Anti-goutte</h2>
             <div class="news-card__details-wrapper">
-              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+              <p class="news-card__excerpt">Fabrication de couvertine et  ATG alu RAL, acier, inox...</p>
               <a href="#" class="news-card__read-more">En voir plus <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
@@ -77,7 +77,7 @@
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Finitions portes et fenêtres</h2>
             <div class="news-card__details-wrapper">
-              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+              <p class="news-card__excerpt">Entourage de porte et fenêtre, Habillage de tableau en alu, Baguette de finition.</p>
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
@@ -86,7 +86,7 @@
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Habillages de façades</h2>
             <div class="news-card__details-wrapper">
-              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+              <p class="news-card__excerpt">Habillage de bandeau: ossature, pose de cassettes, bardage, bandeaux et sous-façe.</p>
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
@@ -95,7 +95,7 @@
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Faux-plafonds</h2>
             <div class="news-card__details-wrapper">
-              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+              <p class="news-card__excerpt">Lames, Métal déployé sur fet à T, Fixations invisibles.</p>
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Inox pour cuisines et autres</h2>
             <div class="news-card__details-wrapper">
-              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio&hellip;</p>
+              <p class="news-card__excerpt">Habillage en inox complet pour cuisine et autres pose en inox.</p>
               <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a> </div>
           </div>
         </div>
