@@ -46,8 +46,8 @@
     </div>
   </div>
   <section id="">
-    <div class="container-fluid">
-      <div class="content-wrapper w-75">
+    <div class="container">
+      <div class="content-wrapper">
         <div class="news-card mx-4"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_68027363.jpg?t=1552301316" alt="photo couvertine alu" class="news-card__image">
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Couvertines et Anti-goutte</h2>
@@ -173,7 +173,7 @@
 </div>
 <!--________________________________________ ABOUTUS+MAP ___________________________________________-->
 
-<div class="container-fluid apropos">
+<div class="container-fluid apropos mt-5">
   <div class="container py-2">
     <div class="row">
       <div class="col-lg-6 col-12">
