@@ -18,28 +18,30 @@
 </header>
 <!--__________________________________________ /HEADER ___________________________________________--> 
 <!--_________________________________________ SLIDESHOW ___________________________________________-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active"> <img class="d-block w-100" src="assets/images/slideshow/slideshow1.jpg" alt="First slide"> </div>
-    <div class="carousel-item"> <img class="d-block w-100" src="assets/images/slideshow/slideshow1.jpg" alt="Second slide"> </div>
-    <div class="carousel-item"> <img class="d-block w-100" src="assets/images/slideshow/slideshow1.jpg" alt="Third slide"> </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
-  <div class="main-text">
-    <div class="col-md-12 d-none d-md-block text-center">
-      <h1> Pliage31, professionnel du pliage de métaux</h1>
-      <h3> Un savoir-faire éprouvé, catch sentence </h3>
+<div class="container-fluid">
+  <div id="carouselExampleIndicators" class="carousel slide mt-lg-5 shadow-lg" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active"> <img class="d-block w-100" src="assets/images/slideshow/slideshow1.jpg" alt="First slide"> </div>
+      <div class="carousel-item"> <img class="d-block w-100" src="assets/images/slideshow/slideshow1.jpg" alt="Second slide"> </div>
+      <div class="carousel-item"> <img class="d-block w-100" src="assets/images/slideshow/slideshow1.jpg" alt="Third slide"> </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+    <div class="main-text">
+      <div class="col-md-12 d-none d-md-block text-center">
+        <h1> Pliage31, professionnel du pliage de métaux</h1>
+        <h3> Un savoir-faire éprouvé, catch sentence </h3>
+      </div>
     </div>
   </div>
 </div>
 <!--________________________________________ /SLIDESHOW ___________________________________________--> 
 <!--________________________________________ CARDS ___________________________________________-->
-<div class="container-fluid savoirfaire mt-5">
+<div class="container-fluid savoirfaire mt-lg-5">
   <div class="row row_savoirfaire">
     <div class="col-12 text-center">
       <h1><span class="gné">Notre savoir-faire</span></h1>
@@ -94,80 +96,68 @@
 </div>
 <!--________________________________________ /CARDS ___________________________________________-->
 
-<div class="container  surmesure text-center mt-5">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="card text-white bg-primary mb-3">
-        <div class="card-body">
-          <h5 class="card-title">Pliage sur-mesure</h5>
-          <p class="card-text">Afin de répondre au mieux à vos besoins de pliages nous tenons un large stock de matières.</p>
-			<div class="btn-secondary mx-auto w-25">Dessinez votre pièce</div>
+<div class="container-fluid  surmesure text-center mt-5">
+  <div class="jumbotron">
+    <h1 class="display-4"><span class="gné">Sur-mesure</span></h1>
+    <p class="lead">Nous sommes à votre disposition pour réaliser vos pièces en fonction de vos choix de taille, matériau et angle.</p>
+    <hr class="my-4">
+    <p>Afin de répondre au mieux à vos besoins de pliages nous tenons un large stock de matières.</p>
+    <p class="lead"> <a class="btn btn-primary btn-lg" href="#" role="button">Dessinez votre pièce</a> </p>
+  </div>
+</div>
+<div class="container">
+  <div class="row no-gutters">
+    <div class="col-md-12">
+      <div class="card-deck">
+ <!--         <div class="card"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29561169.jpg?t=1408747350"  alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tôles alu RAL</h5>
+            <p class="card-text">Afin de vous faire gagner du temps nous tenons de nombreuses réferences d'aluminium laqué RAL en stock permanent.</p>
+          </div>
+          <div class="card-footer bg-transparent mx-auto"> <a class="btn btn-primary btn-lg" href="#" role="button">Liste des couleurs en stock</a> </div>
         </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-4">
-          <div class="card mx-auto" style="width: 20rem;"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29561169.jpg?t=1408747350" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Tôles alu RAL</h5>
-              <p class="card-text">Afin de vous faire gagner du temps nous tenons de nombreuses réferences d'aluminium laqué RAL en stock permanant.</p>
-              <a href="#" class="btn btn-primary">Accès à la liste des couleurs en stock</a> </div>
+        <div class="card"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29599670.jpg?t=1408871650" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Les autres aluminiums</h5>
+            <p class="card-text">Nous tenons également un large stock de feuilles d'aluminium brut, anodisé,et damiers en différents formats et épaisseurs.</p>
+          </div>
+          <div class="card-footer bg-transparent mx-auto"> <a class="btn btn-primary btn-lg" href="#" role="button">Liste des aluminiums en stock</a> </div>
+        </div>
+        <div class="card">
+    <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29561739.jpg?t=1476981127" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Tôles acier</h5>
+      <p class="card-text">Perforées, larmées.. galva ou inox </p>
+    </div>
+    <div class="card-footer bg-transparent mx-auto">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Liste des autres matières en stock</a>
+    </div>
+  </div>
+-->
+        <div class="news-card mx-4"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_29561169.jpg?t=1408747350" alt="photo couvertine alu" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Tôles alu RAL</h2>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">Afin de vous faire gagner du temps nous tenons de nombreuses réferences d'aluminium laqué RAL en stock permanent.</p>
+              <a class="btn btn-primary btn-lg" href="#" role="button">Liste des couleurs en stock</a> </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="card mx-auto" style="width: 20rem;"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29599670.jpg?t=1408871650" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Les autres aluminiums</h5>
-              <p class="card-text">Nous tenons également un large stock de feuilles d'aluminium brut, anodisé,et damiers en différents formats et épaisseurs.</p>
-              <a href="#" class="btn btn-primary">Accès à la liste des aluminiums en stock</a> </div>
+        <div class="news-card mx-4"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_29599670.jpg?t=1408871650" alt="photo couvertine alu" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Les autres aluminiums</h2>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">Nous tenons également un large stock de feuilles d'aluminium brut, anodisé,et damiers en différents formats et épaisseurs.</p>
+              <a class="btn btn-primary btn-lg" href="#" role="button">Liste des autres matières en stock</a> </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                   Tôles aciers
-                  </button>
-                </h5>
-              </div>
-
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  <img src="https://www.pliage31.com/s/cc_images/cache_29561739.jpg?t=1476981127"/>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Tôles perforées
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  <img src="https://www.pliage31.com/s/cc_images/cache_29561721.jpg?t=1408750801"/>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Tôles larmées
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  <img src="https://www.pliage31.com/s/cc_images/cache_29561742.jpg?t=1408751040"/>
-                </div>
-              </div>
-            </div>
+        <div class="news-card mx-4"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_29561739.jpg?t=1476981127" alt="photo couvertine alu" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Tôles acier</h2>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">Perforées, larmées.. galva ou inox</p>
+              <a class="btn btn-primary btn-lg" href="#" role="button">Liste des autres matières en stock</a> </div>
           </div>
-        </div>
+        </div>		  
       </div>
     </div>
   </div>
@@ -177,32 +167,32 @@
 <div class="container-fluid apropos mt-5">
   <div class="container py-2">
     <div class="row">
-      <div class="col-lg-6 col-12">
-          <img src="assets/images/section/background.jpg" max-height="50px">
-      </div>
+      <div class="col-lg-6 col-12"> <img src="assets/images/section/background.jpg" max-height="50px"> </div>
       <div class="col-lg-6 col-12 text-center my-md-5 my-1">
-          <h2><span class="gné">Qui sommes-nous ?</span></h2>
-          <div class="my-5"><p>Situé à Aucamville, Pliage31 est une société de menuiserie métallique. Que vous soyez particulier ou professionnel,nous avons des solutions pour tous vos projets. 
-          </p></div>
+        <h2><span class="gné">Nous contacter</span></h2>
+        <div class="my-5">
+          <p>Téléphone : <strong>05 62 10 26 22</strong> </br>
+            Fax : <strong>05.62.10.54.20</strong> </br>
+            Email : <strong>contact@pliage31.com</strong> </p>
+        </div>
       </div>
     </div>
   </div>
-
   <div class="container py-2">
     <div class="row">
       <div class="col-lg-6 col-12 text-center my-auto">
         <h2><span class="gné">Où nous trouver ?</span></h2>
-        <div class="my-5"><p>Ouvert du Du Lundi au Jeudi de <b>7h30 à 12h00</b> et <b>13h30 à 16h30</b> et Le Vendredi de <b>7h30 à 12h00</b>,
-          nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p></div> 
+        <div class="my-5">
+          <p>Ouvert du Du Lundi au Jeudi de <b>7h30 à 12h00</b> et <b>13h30 à 16h30</b> et Le Vendredi de <b>7h30 à 12h00</b>,
+            nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p>
+        </div>
       </div>
-      <div class="col-lg-6 col-12" width="500px">
-        <img src="assets/images/map/maps.png"/>
-      </div>
+      <div class="col-lg-6 col-12" width="500px"> <img src="assets/images/map/maps.png"/> </div>
     </div>
   </div>
 </div>
 
-<!--__________________________________________/WHO______________________________________________-->
+<!--__________________________________________/WHO______________________________________________--> 
 
 <!--________________________________________ /ABOUTUS+MAP ___________________________________________--> 
 
@@ -214,5 +204,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/630dbf8ee1.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -8,4 +8,5 @@
 footer {
 	background-color: var(--footer-color);
 	height: 150px;
+	color: white;
 }
