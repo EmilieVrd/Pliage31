@@ -33,8 +33,8 @@
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
     <div class="main-text">
       <div class="col-md-12 d-none d-md-block text-center">
-        <h1> Pliage31, professionnel du pliage de métaux</h1>
-        <h3> Un savoir-faire éprouvé, catch sentence </h3>
+        <h1> Pliage31, société de menuiserie métallique située à Aucamville.</h1>
+        <h3> Particuliers ou professionnels, nous avons des solutions pour tous vos projets. </h3>
       </div>
     </div>
   </div>
@@ -96,11 +96,10 @@
 </div>
 <!--________________________________________ /CARDS ___________________________________________-->
 
-<div class="container-fluid  surmesure text-center mt-5">
-  <div class="jumbotron">
-    <h1 class="display-4"><span class="gné">Sur-mesure</span></h1>
+<div class="container-fluid  surmesure text-center  mt-5">
+  <div class="jumbotron mx-auto w-75">
+    <h1 class="display-5"><span class="gné">Sur-mesure</span></h1>
     <p class="lead">Nous sommes à votre disposition pour réaliser vos pièces en fonction de vos choix de taille, matériau et angle.</p>
-    <hr class="my-4">
     <p>Afin de répondre au mieux à vos besoins de pliages nous tenons un large stock de matières.</p>
     <p class="lead"> <a class="btn btn-primary btn-lg" href="#" role="button">Dessinez votre pièce</a> </p>
   </div>
@@ -109,31 +108,6 @@
   <div class="row no-gutters">
     <div class="col-md-12">
       <div class="card-deck">
- <!--         <div class="card"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29561169.jpg?t=1408747350"  alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Tôles alu RAL</h5>
-            <p class="card-text">Afin de vous faire gagner du temps nous tenons de nombreuses réferences d'aluminium laqué RAL en stock permanent.</p>
-          </div>
-          <div class="card-footer bg-transparent mx-auto"> <a class="btn btn-primary btn-lg" href="#" role="button">Liste des couleurs en stock</a> </div>
-        </div>
-        <div class="card"> <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29599670.jpg?t=1408871650" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Les autres aluminiums</h5>
-            <p class="card-text">Nous tenons également un large stock de feuilles d'aluminium brut, anodisé,et damiers en différents formats et épaisseurs.</p>
-          </div>
-          <div class="card-footer bg-transparent mx-auto"> <a class="btn btn-primary btn-lg" href="#" role="button">Liste des aluminiums en stock</a> </div>
-        </div>
-        <div class="card">
-    <img class="card-img-top" src="https://www.pliage31.com/s/cc_images/cache_29561739.jpg?t=1476981127" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Tôles acier</h5>
-      <p class="card-text">Perforées, larmées.. galva ou inox </p>
-    </div>
-    <div class="card-footer bg-transparent mx-auto">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Liste des autres matières en stock</a>
-    </div>
-  </div>
--->
         <div class="news-card mx-4"> <a href="#" class="news-card__card-link"></a> <img src="https://www.pliage31.com/s/cc_images/cache_29561169.jpg?t=1408747350" alt="photo couvertine alu" class="news-card__image">
           <div class="news-card__text-wrapper">
             <h2 class="news-card__title">Tôles alu RAL</h2>
@@ -167,8 +141,8 @@
 <div class="container-fluid apropos mt-5">
   <div class="container py-2">
     <div class="row">
-      <div class="col-lg-6 col-12"> <img src="assets/images/section/background.jpg" max-height="50px"> </div>
-      <div class="col-lg-6 col-12 text-center my-md-5 my-1">
+      <div class="col-lg-6 text-center"> <img src="assets/images/section/background.jpg" max-height="50px"> </div>
+      <div class="col-lg-6 text-center">
         <h2><span class="gné">Nous contacter</span></h2>
         <div class="my-5">
           <p>Téléphone : <strong>05 62 10 26 22</strong> </br>
@@ -180,14 +154,14 @@
   </div>
   <div class="container py-2">
     <div class="row">
-      <div class="col-lg-6 col-12 text-center my-auto">
+      <div class="col-lg-6 text-center my-auto">
         <h2><span class="gné">Où nous trouver ?</span></h2>
         <div class="my-5">
           <p>Ouvert du Du Lundi au Jeudi de <b>7h30 à 12h00</b> et <b>13h30 à 16h30</b> et Le Vendredi de <b>7h30 à 12h00</b>,
             nous proposons la livraison et un service express 24/48h pour répondre à vos urgences.</p>
         </div>
       </div>
-      <div class="col-lg-6 col-12" width="500px"> <img src="assets/images/map/maps.png"/> </div>
+      <div class="col-lg-6 text-center" width="500px"> <img src="assets/images/map/maps.png"/> </div>
     </div>
   </div>
 </div>
