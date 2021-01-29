@@ -5,10 +5,17 @@
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active"> <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a> </li>
       <li class="nav-item dropdown"> <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Notre Savoir-Faire </a>
-        <div class="dropdown-menu"> <a class="dropdown-item" href="#">Couvertines et Anti-gouttes</a> <a class="dropdown-item" href="#">Les Finitions Portes et Fenêtres</a> <a class="dropdown-item" href="#">Les Façades</a> <a class="dropdown-item" href="#">Les Faux Plafonds</a> <a class="dropdown-item" href="#">Inox Pour Les Cuisines Et Autres</a> </div>
+        <div class="dropdown-menu"> 
+			<a class="dropdown-item" href="galerie_couvertine.php">Couvertines et Anti-gouttes</a> 
+			<a class="dropdown-item" href="#">Les Finitions Portes et Fenêtres</a> 
+			<a class="dropdown-item" href="#">Les Façades</a> 
+			<a class="dropdown-item" href="#">Les Faux Plafonds</a> 
+			<a class="dropdown-item" href="#">Inox Pour Les Cuisines Et Autres</a> </div>
       </li>
       <li class="nav-item"> <a class="nav-link" href="#">Plan D'accès</a> </li>
       <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
     </ul>
   </div>
 </nav>
+
+

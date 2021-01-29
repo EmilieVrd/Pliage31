@@ -46,7 +46,6 @@
 	  color: black !important;
 	  margin: 0 20px;
 	  padding: 20px;
-	  display: block;
   }
 .nav-item a:hover {
 	background-color: var(--first-theme-color) !important;

@@ -113,7 +113,7 @@
   </section>
 </div>
 <!--________________________________________ /CARDS ___________________________________________-->
-
+<!-- Sur-mesure -->
 <div class="container-fluid  surmesure text-center  mt-5">
   <div class="jumbotron mx-auto w-75">
     <h1 class="display-5"><span class="gné">Sur-mesure</span></h1>
@@ -154,6 +154,7 @@
     </div>
   </div>
 </div>
+<!--/Sur-mesure -->
 	
 <!--________________________________________ NOUS CONTACTER ___________________________________________-->
 <div class="container-fluid apropos mt-5">
@@ -170,8 +171,8 @@
       </div>
     </div>
   </div>
-<!--________________________________________ /NOUS CONTACTER ___________________________________________-->
 
+<!--________________________________________ /NOUS CONTACTER ___________________________________________-->
 <!--________________________________________ OU NOUS TROUVER + MAP ___________________________________________-->
   <div class="container py-2">
     <div class="row">
@@ -190,17 +191,13 @@
 <!--________________________________________/OU NOUS TROUVER + MAP ___________________________________________-->
 </div>
 
-
-
-<!--__________________________________________/WHO______________________________________________--> 
-
-<!--________________________________________ /ABOUTUS+MAP ___________________________________________--> 
+ 
 
 <!--________________________________________ FOOTER ___________________________________________-->
 <footer class="mt-5"> 
 		<div class="container-fluid">
 		<div class="row text-center">
-			<div class="col-lg-12"><div class="card-header"><img src="assets/images/logo/logo.png"></div></div>
+			<div class="col-lg-12"><div class="card-header"><img src="assets/images/logo/logo.png"></div>
 				<p>Pliage 31
 2 imp. Raymond Loewy
 31140 Aucamville
@@ -209,6 +206,7 @@ Fax :05.62.10.54.20
 Email : contact@pliage31.com</p>
 		</div>
 	</div>
+	</div>
 </footer>
 <!--________________________________________ /FOOTER ___________________________________________--> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
@@ -216,7 +214,5 @@ Email : contact@pliage31.com</p>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
 <script src="https://kit.fontawesome.com/630dbf8ee1.js" crossorigin="anonymous"></script> 
 <script type="text/javascript" src="assets/js/script.js"></script> 
-<script
-
 </body>
 </html>
