@@ -45,7 +45,16 @@ img {
 	margin: 0 auto;	
 }
 .carousel-inner {
-		border-radius: 10px;
+		border-radius: 10px;		
+}
+.carousel-item > img {
+	max-height: 400px;
+	object-fit: cover;
+}
+@media (max-width: 688px) {
+    .carousel-item>img {
+        max-height: 146px;
+    }
 }
 @media (max-width: 900px) {
 	.carousel {
@@ -185,25 +194,22 @@ img {
 	text-align: center;
   }
 
+.news-card .news-card__details-wrapper {
+  max-height: 20rem;
+  opacity: 1;
+}
+.news-card .news-card__text-wrapper {
+  background-color: rgba(255, 255, 255, 0.7);
+            width: 100%;
 
-
-
-    .news-card .news-card__details-wrapper {
-      max-height: 20rem;
-      opacity: 1;
-    }
-    .news-card .news-card__text-wrapper {
-      background-color: rgba(255, 255, 255, 0.7);
-				width: 100%;
-
-    }
-    .news-card .news-card__title {
-      color: var(--first-theme-color);
-    }
-    .news-card:hover .news-card__image {
-      transform: scale(1.2);
-      z-index: -1;
-    }
+}
+.news-card .news-card__title {
+  color: var(--first-theme-color);
+}
+.news-card:hover .news-card__image {
+  transform: scale(1.2);
+  z-index: -1;
+}
 
 
 .news-card__excerpt {
@@ -243,6 +249,11 @@ img {
       color: black;
     }
 
+@media (max-width: 768px) {
+	.news-card__read-more {
+		display: none;
+	}
+}
 /*--------------------------TITLE----------------------*/
 
 img {
@@ -274,6 +285,11 @@ img {
 .btn-primary {
 	font-size: 1.1em;
 	background-color: var(--first-theme-color);
+}
+@media (max-width: 768px) {
+	.card-deck .btn-primary {
+		display: none;
+	}
 }
 /*--------------------------WHO----------------------*/
 

@@ -1,0 +1,60 @@
+:root{
+  --first-theme-color: #036cb0; /*Lighter blue of the three*/
+  --second-theme-color: #035483;
+  --third-theme-color:  #033651; /*Darkest blue of the three*/
+  --footer-color: #3d3d3d;
+}
+
+
+.container-fluid:nth-of-type(1)
+{
+  background-color: var(--footer-color);
+  padding: 200px;
+
+}
+
+.btn
+{
+  background-color: transparent;
+  border: solid white thin;
+  color: white;
+  border-radius: 30px;
+  font-weight: 1px;
+  font-size: 1.2em;
+  padding: 0.50rem 0.75rem;
+}
+
+.btn:hover
+{
+  background-color: white;
+  color: var(--third-theme-color);
+}
+
+.container-fluid:nth-of-type(2)
+{
+    background-color: var(--third-theme-color);
+}
+
+.carousel
+{
+  position: absolute;
+  top: -550px;
+}
+
+#myCarousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
