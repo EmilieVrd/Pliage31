@@ -1,4 +1,4 @@
-var mymap = L.map('mapid').setView([43.6663703918457, 1.4184505939483643], 13);
+var mymap = L.map('map').setView([43.6663703918457, 1.4184505939483643], 13);
 
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -13,3 +13,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 // Pliage 31
 var marker = L.marker([43.6663703918457, 1.4184505939483643]).addTo(mymap);
 marker.bindPopup("<img src='assets/img/map/truc.png'> <br>  Tôlerie, Découpage, Poinçonnage, Pliage <br> 2 Impasse Raymond Loewy, Aucamville, France")
+
+
+
