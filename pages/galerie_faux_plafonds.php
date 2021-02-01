@@ -21,26 +21,26 @@
 <div class="container slider bg-light shadow-lg">
   <div class="row">
     <div class="col-lg-2  text-center bg-light">
-      <ul class="nav md-tabs blue-gradient" id="myTabEx" role="tablist">
+      <ul class="nav nav-pills nav-fill" id="myTabEx" role="tablist">
 
       <!-- TAB 1 -->
         <li class="nav-item">
           <a class="nav-link active show btn p-2" id="tb-tab1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Hall d'Entrée</a>
         </li>
-        
-      <!-- TAB 2 -->  
+
+      <!-- TAB 2 -->
         <li class="nav-item">
           <a class="nav-link btn p-2" id="tb-tab2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Passage Couvert</a>
         </li>
-        
-      <!-- TAB 3 -->  
+
+      <!-- TAB 3 -->
         <li class="nav-item">
           <a class="nav-link btn p-2" id="tb-tab3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Auchan</a>
         </li>
-        
+
        </ul>
     </div>
-    
+
     <div class="col-lg-9 col-12 tab-content " id="slider">
 <!-- Lightbox below  -->
     <div id="mdb-lightbox-ui0"></div>
@@ -54,20 +54,20 @@
 
 
 
-<!-- Tab 1 Starts Here -->       
+<!-- Tab 1 Starts Here -->
 <div class="tab-pane fade active show" id="tab1" role="tabpanel" aria-labelledby="tb-tab1">
-     <div id="myCarousel" class="carousel slide"> 
-        
+     <div id="myCarousel" class="carousel slide">
+
         <!-- main slider carousel items -->
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/faux_plafonds/fp_1.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/faux_plafonds/fp_2.jpg" width="600" class="img-fluid"> </div>
-          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/faux_plafonds/fp_3.jpg" width="600" class="img-fluid"> 
+          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/faux_plafonds/fp_3.jpg" width="600" class="img-fluid">
             <div class="carousel-caption d-none d-md-block">
               <p class="h5">Fixations invisibles</p>
             </div>
           </div>
-          <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/faux_plafonds/fp_4.jpg" width="600" class="img-fluid"> 
+          <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/faux_plafonds/fp_4.jpg" width="600" class="img-fluid">
             <div class="carousel-caption d-none d-md-block">
               <p class="h5">Pose sur ossature tube 30x30</p>
             </div>
@@ -91,7 +91,7 @@
       </div>
   </div>
 
-<!-- Tab 1 ends here -->    
+<!-- Tab 1 ends here -->
 
 
 
@@ -108,19 +108,19 @@
 
 
 
-<!-- TAB 2 starts below  -->  
+<!-- TAB 2 starts below  -->
   <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tb-tab2">
-      <div id="myCarousel1" class="carousel slide"> 
-        
+      <div id="myCarousel1" class="carousel slide">
+
         <!-- main slider carousel items -->
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/faux_plafonds/fp_5.jpg" width="600" class="img-fluid"> </div>
-          <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/faux_plafonds/fp_6.jpg" width="600" class="img-fluid"> 
+          <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/faux_plafonds/fp_6.jpg" width="600" class="img-fluid">
             <div class="carousel-caption d-none d-md-block">
               <p class="h5">Fixations équerres en plafond</p>
             </div>
           </div>
-          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/faux_plafonds/fp_7.jpg" width="600" class="img-fluid"> 
+          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/faux_plafonds/fp_7.jpg" width="600" class="img-fluid">
             <div class="carousel-caption d-none d-md-block">
               <p class="h5">Métal déployé sur fer à T</p>
             </div>
@@ -143,9 +143,7 @@
       </div>
   </div>
 
-<!-- TAB 2 ends above   -->  
-
-    
+<!-- TAB 2 ends above   -->
 
 
 
@@ -163,13 +161,15 @@
 
 
 
-<!-- Tab 3 Starts Here  -->       
+
+
+<!-- Tab 3 Starts Here  -->
   <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tb-tab3">
-      <div id="myCarousel2" class="carousel slide"> 
-        
+      <div id="myCarousel2" class="carousel slide">
+
         <!-- main slider carousel items -->
         <div class="carousel-inner text-center pb-4">
-          <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/faux_plafonds/fp_8.jpg" width="600" class="img-fluid"> 
+          <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/faux_plafonds/fp_8.jpg" width="600" class="img-fluid">
             <div class="carousel-caption d-none d-md-block">
               <p class="h5">Lames alu pliées ep 1.5 mm</p>
             </div>
@@ -193,13 +193,13 @@
       </div>
   </div>
 
-<!-- Tab 3 ends Here -->          
+<!-- Tab 3 ends Here -->
 
       </div>
     </div>
   </div>
 </div>
-<!-- END OF Tab Section  -->     
+<!-- END OF Tab Section  -->
 
 
 
@@ -207,11 +207,11 @@
 <footer>
 <?php require 'footer.php' ;?>
 </footer>
-<!--________________________________________ /FOOTER ___________________________________________--> 
+<!--________________________________________ /FOOTER ___________________________________________-->
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script type="text/javascript" src="../assets/js/script_pages.js"></script> 
+<script type="text/javascript" src="../assets/js/script_pages.js"></script>
 </body>
 </html>

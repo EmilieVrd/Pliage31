@@ -14,6 +14,19 @@
 body {
 	background-color:  var(--third-theme-color);
 }
+
+.nav-pills .nav-link {
+  padding: 5px !important;
+  margin: 10px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4em !important;
+    border: 1px solid lightgrey;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: var(--first-theme-color) !important;
+}
 .btn-min-block
 {
     min-width: 170px;
@@ -72,33 +85,33 @@ body {
 }
 */
 
-#myCarousel .list-inline {
+.carousel .list-inline {
     white-space:nowrap;
     overflow-x:auto;
 }
 
-#myCarousel .carousel-indicators {
+.carousel .carousel-indicators {
     position: static;
     left: initial;
     width: initial;
     margin-left: initial;
 }
 
-#myCarousel .carousel-indicators > li {
+.carousel .carousel-indicators > li {
     width: initial;
     height: initial;
     text-indent: initial;
 }
-#myCarousel {
+.carousel {
 	width: 100%;
 	margin: 0 auto;
 }
-#myCarousel .carousel-inner img {
+.carousel .carousel-inner img {
 	width: 100%;
 	max-height: 600px;
 }
 @media all and (max-width: 767px) {
-	#myCarousel {
+	.carousel {
 		width: 100%;
 	}
 }
