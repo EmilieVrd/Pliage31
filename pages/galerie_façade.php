@@ -17,16 +17,19 @@
 <?php require 'header.php' ;?>
 <!--__________________________________________ /HEADER ___________________________________________-->
 
+
+
 <div class="container-fluid slider shadow-lg">
   <div class="row">
     <div class="col-lg-2 my-auto text-center">
       <div class=""> 
-		  <a href="#" class="btn">Simply Market</a> 
-		  <a href="#" class="btn">Simply Market</a> 
-		  <a href="#" class="btn">Simply Market</a> 
-		  <a href="#" class="btn">Simply Market</a> 
-		  <a href="#" class="btn">Simply Market</a> </div>
+      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
+      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
+      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
+      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
+      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
     </div>
+  </div>
     <div class="col-lg-10 col-12" id="slider">
       <div id="myCarousel" class="carousel slide"> 
         
@@ -49,14 +52,14 @@
           </li>
         </ul>
       </div>
-	<!-- caption slideshow -->
+  <!-- caption slideshow -->
       <div class="main-text">
         <div class="col-md-12 d-none d-md-block text-center">
           <h1> Nos Façades</h1>
           <h3> Coucou tout le monde </h3>
         </div>
       </div>
-	<!--/caption slideshow -->
+  <!--/caption slideshow -->
     </div>
     <!--/main slider carousel--> 
   </div>
