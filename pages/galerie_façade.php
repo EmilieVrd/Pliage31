@@ -17,26 +17,71 @@
 <?php require 'header.php' ;?>
 <!--__________________________________________ /HEADER ___________________________________________-->
 
+
 <div class="container slider bg-light shadow-lg">
   <div class="row">
-    <div class="col-lg-2  text-center bg-light">
-      <div class="buttons mt-3"> 
-      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
-      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
-      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
-      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
-      <a href="#" class="btn btn-primary my-1">Simply Market</a> 
-	  </div></div>
+    <div class="col-lg-2 text-center bg-light">
+      <ul class="nav nav-tabs md-tabs blue-gradient" id="myTabEx" role="tablist">
+
+      <!-- TAB 1 -->
+        <li class="nav-item">
+          <a class="nav-link active show btn p-2" id="tb-tab1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Simply Market</a>
+        </li>
+        
+      <!-- TAB 2 -->  
+        <li class="nav-item">
+          <a class="nav-link btn p-2" id="tb-tab2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Auchan</a>
+        </li>
+        
+      <!-- TAB 3 -->  
+        <li class="nav-item">
+          <a class="nav-link btn p-2" id="tb-tab3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">La Mie de Pain</a>
+        </li>
+        
+      <!-- TAB 4 -->  
+        <li class="nav-item">
+          <a class="nav-link btn p-2" id="tb-tab4" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">Valse des Pains</a>
+        </li>
+        
+      <!-- TAB 5 -->  
+        <li class="nav-item">
+          <a class="nav-link btn p-2" id="tb-tab5" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Divers</a>
+        </li>
+       
+       </ul>
+    </div>
     
-    <div class="col-lg-9 col-12 " id="slider">
-      <div id="myCarousel" class="carousel slide"> 
+    <div class="col-lg-9 col-12 tab-content " id="slider">
+<!-- Lightbox below  -->
+    <div id="mdb-lightbox-ui0"></div>
+<div class="mdb-lightbox"></div>
+<!-- Tab Set up Here -->
+
+
+<!-- Top of Tab Section  -->
+<div class="tab-content" id="myTabContentEx">
+
+
+
+
+<!-- Tab 1 Starts Here -->       
+<div class="tab-pane fade active show" id="tab1" role="tabpanel" aria-labelledby="tb-tab1">
+     <div id="myCarousel" class="carousel slide"> 
         
         <!-- main slider carousel items -->
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/façades/façade1.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/façades/façade2.jpg" width="600" class="img-fluid"> </div>
-          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade3.jpg" width="600" class="img-fluid"> </div>
-          <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/façades/façade4.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade3.jpg" width="600" class="img-fluid"> 
+            <div class="carousel-caption d-none d-md-block">
+              <p class="h5">Ossature tubulaire 30x30 galva</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/façades/façade4.jpg" width="600" class="img-fluid"> 
+            <div class="carousel-caption d-none d-md-block">
+              <p class="h5">Pose des premieres cassettes</p>
+            </div>
+          </div>
           <div class="carousel-item" data-slide-number="4"> <img src="../assets/images/galeries/façades/façade5.jpg" width="600" class="img-fluid"> </div>
           <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
         <!-- main slider carousel nav controls -->
@@ -46,24 +91,233 @@
           <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel"> <img src="../assets/images/galeries/façades/façade3.jpg" class="img-fluid two"> </a> </li>
           <li class="list-inline-item"> <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel"> <img src="../assets/images/galeries/façades/façade4.jpg" class="img-fluid three"> </a> </li>
           <li class="list-inline-item"> <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel"> <img src="../assets/images/galeries/façades/façade5.jpg" class="img-fluid four"> </a> </li>
-          </a>
-          </li>
         </ul>
       </div>
-	<!-- caption slideshow -->
+  <!-- caption slideshow -->
       <div class="main-text mx-auto">
         <div class="col-md-12 d-none d-md-block text-center caption">
           <h1> Nos Façades</h1>
           <h3>  </h3>
         </div>
       </div>
-	<!--/caption slideshow -->
+  </div>
+
+<!-- Tab 1 ends here -->    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- TAB 2 starts below  -->  
+  <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tb-tab2">
+      <div id="myCarousel1" class="carousel slide"> 
+        
+        <!-- main slider carousel items -->
+        <div class="carousel-inner text-center pb-4">
+          <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/façades/façade6.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/façades/façade7.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade8.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/façades/façade9.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="4"> <img src="../assets/images/galeries/façades/façade10.jpg" width="600" class="img-fluid"> 
+            <div class="carousel-caption d-none d-md-block">
+              <p class="h5">Sous-façe alu sur rail</p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+        <!-- main slider carousel nav controls -->
+        <ul class="carousel-indicators list-inline mx-auto px-2">
+          <li class="list-inline-item active"> <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel1"> <img src="../assets/images/galeries/façades/façade6.jpg" class="img-fluid"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel1"> <img src="../assets/images/galeries/façades/façade7.jpg" class="img-fluid one"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel1"> <img src="../assets/images/galeries/façades/façade8.jpg" class="img-fluid two"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel1"> <img src="../assets/images/galeries/façades/façade9.jpg" class="img-fluid three"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel1"> <img src="../assets/images/galeries/façades/façade10.jpg" class="img-fluid four"> </a> </li>
+          </a>
+          </li>
+        </ul>
+      </div>
+  <!-- caption slideshow -->
+      <div class="main-text mx-auto">
+        <div class="col-md-12 d-none d-md-block text-center caption">
+          <h1> Nos Façades</h1>
+          <h3>  </h3>
+        </div>
+      </div>
+  </div>
+
+<!-- TAB 2 ends above   -->  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Tab 3 Starts Here  -->       
+  <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tb-tab3">
+      <div id="myCarousel2" class="carousel slide"> 
+        
+        <!-- main slider carousel items -->
+        <div class="carousel-inner text-center pb-4">
+          <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/façades/façade11.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/façades/façade12.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade13.jpg" width="600" class="img-fluid"> 
+            <div class="carousel-caption d-none d-md-block">
+              <p class="h5">Pose du bardage et bandeaux</p>
+            </div>            
+          </div>
+          <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/façades/façade14.jpg" width="600" class="img-fluid"> 
+            <div class="carousel-caption d-none d-md-block">
+              <p class="h5">Fabrication et pose</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-slide-number="4"> <img src="../assets/images/galeries/façades/façade15.jpg" width="600" class="img-fluid"> 
+            <div class="carousel-caption d-none d-md-block">
+              <p class="h5">Ossature porteuse</p>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel2" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+        <!-- main slider carousel nav controls -->
+        <ul class="carousel-indicators list-inline mx-auto px-2">
+          <li class="list-inline-item active"> <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel2"> <img src="../assets/images/galeries/façades/façade11.jpg" class="img-fluid"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel2"> <img src="../assets/images/galeries/façades/façade12.jpg" class="img-fluid one"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel2"> <img src="../assets/images/galeries/façades/façade13.jpg" class="img-fluid two"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel2"> <img src="../assets/images/galeries/façades/façade14.jpg" class="img-fluid three"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-4" data-slide-to="4" data-target="#myCarousel2"> <img src="../assets/images/galeries/façades/façade15.jpg" class="img-fluid four"> </a> </li>
+          </a>
+          </li>
+        </ul>
+      </div>
+  <!-- caption slideshow -->
+      <div class="main-text mx-auto">
+        <div class="col-md-12 d-none d-md-block text-center caption">
+          <h1> Nos Façades</h1>
+          <h3>  </h3>
+        </div>
+      </div>
+  </div>
+
+<!-- Tab 3 ends Here -->          
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Tab Four Starts Here -->       
+  <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tb-tab4">
+      <div id="myCarousel4" class="carousel slide"> 
+        
+        <!-- main slider carousel items -->
+        <div class="carousel-inner text-center pb-4">
+          <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/façades/façade16.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/façades/façade17.jpg" width="600" class="img-fluid"> 
+            <div class="carousel-caption d-none d-md-block">
+              <p class="h5">Cassettes sur ossature galva</p>
+            </div> 
+          </div>
+          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade18.jpg" width="600" class="img-fluid"> </div>
+
+          <a class="carousel-control-prev" href="#myCarousel4" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel4" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+        <!-- main slider carousel nav controls -->
+        <ul class="carousel-indicators list-inline mx-auto px-2">
+          <li class="list-inline-item active"> <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel4"> <img src="../assets/images/galeries/façades/façade16.jpg" class="img-fluid"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel4"> <img src="../assets/images/galeries/façades/façade17.jpg" class="img-fluid one"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel4"> <img src="../assets/images/galeries/façades/façade18.jpg" class="img-fluid two"> </a> </li>
+          </a>
+          </li>
+        </ul>
+      </div>
+  <!-- caption slideshow -->
+      <div class="main-text mx-auto">
+        <div class="col-md-12 d-none d-md-block text-center caption">
+          <h1> Nos Façades</h1>
+          <h3>  </h3>
+        </div>
+      </div>
+  </div>
+
+<!-- Tab 4 ends here -->    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Tab 5 Starts Here  -->       
+  <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tb-tab5">
+      <div id="myCarousel5" class="carousel slide"> 
+        
+        <!-- main slider carousel items -->
+        <div class="carousel-inner text-center pb-4">
+          <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/façades/façade19.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/façades/façade20.jpg" width="600" class="img-fluid"> </div>
+          <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade21.jpg" width="600" class="img-fluid"> </div>
+
+          <a class="carousel-control-prev" href="#myCarousel5" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel5" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+        <!-- main slider carousel nav controls -->
+        <ul class="carousel-indicators list-inline mx-auto px-2">
+          <li class="list-inline-item active"> <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel5"> <img src="../assets/images/galeries/façades/façade19.jpg" class="img-fluid"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel5"> <img src="../assets/images/galeries/façades/façade20.jpg" class="img-fluid one"> </a> </li>
+          <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel5"> <img src="../assets/images/galeries/façades/façade21.jpg" class="img-fluid two"> </a> </li>
+          </a>
+          </li>
+        </ul>
+      </div>
+  <!-- caption slideshow -->
+      <div class="main-text mx-auto">
+        <div class="col-md-12 d-none d-md-block text-center caption">
+          <h1> Nos Façades</h1>
+          <h3>  </h3>
+        </div>
+      </div>
+  </div>
+<!-- Tab 5 ends Here  -->       
+
+      </div>
     </div>
-    <!--/main slider carousel-->
-	    <div class="col-lg-1 my-auto text-center bg-light">
-	</div>
   </div>
 </div>
+<!-- END OF Tab Section  -->     
+
+
 
 <!--________________________________________ FOOTER ___________________________________________-->
 <footer>
@@ -74,5 +328,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../assets/js/script_pages.js"></script> 
 </body>
 </html>
