@@ -17,20 +17,18 @@
 <?php require 'header.php' ;?>
 <!--__________________________________________ /HEADER ___________________________________________-->
 
-
-
-<div class="container-fluid slider shadow-lg">
+<div class="container slider bg-light shadow-lg">
   <div class="row">
-    <div class="col-lg-2 my-auto text-center">
-      <div class=""> 
+    <div class="col-lg-2  text-center bg-light">
+      <div class="buttons mt-3"> 
       <a href="#" class="btn btn-primary my-1">Simply Market</a> 
       <a href="#" class="btn btn-primary my-1">Simply Market</a> 
       <a href="#" class="btn btn-primary my-1">Simply Market</a> 
       <a href="#" class="btn btn-primary my-1">Simply Market</a> 
       <a href="#" class="btn btn-primary my-1">Simply Market</a> 
-    </div>
-  </div>
-    <div class="col-lg-10 col-12" id="slider">
+	  </div></div>
+    
+    <div class="col-lg-9 col-12 " id="slider">
       <div id="myCarousel" class="carousel slide"> 
         
         <!-- main slider carousel items -->
@@ -52,16 +50,18 @@
           </li>
         </ul>
       </div>
-  <!-- caption slideshow -->
-      <div class="main-text">
-        <div class="col-md-12 d-none d-md-block text-center">
+	<!-- caption slideshow -->
+      <div class="main-text mx-auto">
+        <div class="col-md-12 d-none d-md-block text-center caption">
           <h1> Nos Façades</h1>
-          <h3> Coucou tout le monde </h3>
+          <h3>  </h3>
         </div>
       </div>
-  <!--/caption slideshow -->
+	<!--/caption slideshow -->
     </div>
-    <!--/main slider carousel--> 
+    <!--/main slider carousel-->
+	    <div class="col-lg-1 my-auto text-center bg-light">
+	</div>
   </div>
 </div>
 
