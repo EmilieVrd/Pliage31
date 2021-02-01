@@ -4,22 +4,26 @@
   --third-theme-color:  #033651; /*Darkest blue of the three*/
   --footer-color: #3d3d3d;
 }
+
 body {
-	background-color:  var(--third-theme-color);
+  background-color:  var(--third-theme-color);
 }
+
 .main-text
 {
     position: absolute;
     top: 50px;
-    width: 100%;
+    width: 80%;
     color: white;
-	background-color: rgba(0,0,0,0.50);
+  background-color: rgba(0,0,0,0.50);
 }
+
 .btn-min-block
 {
     min-width: 170px;
     line-height: 26px;
 }
+
 .btn-clear
 {
     color: #FFF;
@@ -27,23 +31,27 @@ body {
     border-color: #FFF;
     margin-right: 15px;
 }
+
 .btn-clear:hover
 {
     color: #000;
     background-color: #FFF;
 }
+
 .slider {
-	box-shadow: 20 20 20 20 black;
+  box-shadow: 20 20 20 20 black;
 }
+
 .container-fluid:nth-of-type(1)
 {
-  /*background-color: var(--footer-color);*/
+  background-color: var(--footer-color);
+  color: white;
 
 }
 
 .btn-primary {
-	font-size: 1.1em;
-	background-color: var(--first-theme-color);
+  font-size: 1.1em;
+  background-color: var(--first-theme-color);
 }
 
 .btn:hover
@@ -76,15 +84,15 @@ body {
     text-indent: initial;
 }
 #myCarousel {
-	width: 80%;
-	margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 #myCarousel .carousel-inner img {
-	width: 100%;
-	max-height: 650px;
+  width: 100%;
+  max-height: 650px;
 }
 @media all and (max-width: 767px) {
-	#myCarousel {
-		width: 100%;
-	}
+  #myCarousel {
+    width: 100%;
+  }
 }
