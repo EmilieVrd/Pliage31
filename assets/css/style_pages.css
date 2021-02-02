@@ -76,15 +76,28 @@ body {
     right: 0;
     text-align: center;
     color: white;
-	background-color: rgba(0,0,0,0.50);
+	background-color: rgba(0,0,0,0.40);
 }
-/*@media all and (max-width: 767px) {
-	.caption {
-		width: 100%;
+@media all and (max-width: 767px) {
+	.caption h1, .caption h2{
+		font-size: 1.2em;
+	}
+	.main-text {
+		top: 0;
 	}
 }
-*/
-
+.carousel-caption {
+	background-color: rgba(0,0,0,0.40);
+}
+@media all and (max-width: 767px) {
+	.h5{
+		font-size: 3vw;
+	}
+	.carousel-caption {
+		margin: 0;
+		padding: 0;
+	}
+}
 .carousel .list-inline {
     white-space:nowrap;
     overflow-x:auto;

@@ -73,12 +73,12 @@
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/façades/façade1.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/façades/façade2.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade3.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Ossature tubulaire 30x30 galva</p>
             </div>
           </div>
           <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/façades/façade4.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Pose des premieres cassettes</p>
             </div>
           </div>
@@ -95,7 +95,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1> Nos Façades</h1>
           <h3>  </h3>
         </div>
@@ -130,7 +130,7 @@
           <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade8.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/façades/façade9.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="4"> <img src="../assets/images/galeries/façades/façade10.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Sous-façe alu sur rail</p>
             </div>
           </div>
@@ -148,7 +148,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1> Nos Façades</h1>
           <h3>  </h3>
         </div>
@@ -184,17 +184,17 @@
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/façades/façade11.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/façades/façade12.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/façades/façade13.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Pose du bardage et bandeaux</p>
             </div>
           </div>
           <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/façades/façade14.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Fabrication et pose</p>
             </div>
           </div>
           <div class="carousel-item" data-slide-number="4"> <img src="../assets/images/galeries/façades/façade15.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Ossature porteuse</p>
             </div>
           </div>
@@ -212,7 +212,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1> Nos Façades</h1>
           <h3>  </h3>
         </div>
@@ -243,7 +243,7 @@
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/façades/façade16.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/façades/façade17.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Cassettes sur ossature galva</p>
             </div>
           </div>
@@ -261,7 +261,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1> Nos Façades</h1>
           <h3>  </h3>
         </div>
@@ -303,7 +303,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1> Nos Façades</h1>
           <h3>  </h3>
         </div>
