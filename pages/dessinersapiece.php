@@ -44,11 +44,11 @@
 				      <div class="col-md-4" >
 				       <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/toles/tolesperf.png" alt="Tôles perforées">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Tôles perforées</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisir</a>
 				          </div>
 				        </div>
 				      </div>
@@ -56,11 +56,11 @@
 				      <div class="col-md-4" >
 				        <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/toles/tolesgalva.png" alt="Tôles Galvanisées">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Tôles Galvanisées</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisir</a>
 				          </div>
 				        </div>
 				      </div>
@@ -68,11 +68,11 @@
 				      <div class="col-md-4" >
 				        <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/toles/toleselectro.png" alt="Tôles électro-zinguées">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Tôles électro-zinguées</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisir</a>
 				          </div>
 				        </div>
 				      </div>
@@ -88,11 +88,11 @@
 				      <div class="col-md-4" >
 				       <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/toles/tolesDKP.png" alt="Tôles en acier DKP">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Tôles en acier DKP</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisir</a>
 				          </div>
 				        </div>
 				      </div>
@@ -100,11 +100,11 @@
 				      <div class="col-md-4" >
 				        <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/toles/tolesacierlamée.png" alt="Tôles en aciers larmées">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Tôles en aciers larmées</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisir</a>
 				          </div>
 				        </div>
 				      </div>
@@ -112,11 +112,11 @@
 				      <div class="col-md-4" >
 				        <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/alu/aluannodisé.png" alt="Aluminium Annodisé">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Aluminium Anodisé</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisirn</a>
 				          </div>
 				        </div>
 				      </div>
@@ -132,11 +132,11 @@
 				      <div class="col-md-4" >
 				       <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/alu/alubrut.png" alt="Aluminium Brut">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Aluminium Brut</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisir</a>
 				          </div>
 				        </div>
 				      </div>
@@ -144,11 +144,11 @@
 				      <div class="col-md-4" >
 				        <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/alu/aludamiers.png" alt="Aluminium en Damiers">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Aluminium Damiers</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisir</a>
 				          </div>
 				        </div>
 				      </div>
@@ -156,11 +156,11 @@
 				      <div class="col-md-4" >
 				        <div class="card mb-auto">
 				          <img class="card-img-top"
-				            src="../assets/images/dessiner_piece/toles/alu_damier.jpg" alt="Card image cap">
+				            src="../assets/images/galeries/dessin_piece/alu/alulaquées.png" alt="Aluminium Laquées RAL">
 				          <div class="card-body">
-				            <h2 class="card-title">Card title</h2>
+				            <h2 class="card-title">Tôles aluminium Laquées  RAL</h2>
 				            
-				            <a class="btn btn-primary">Button</a>
+				            <a class="btn btn-primary">Choisir</a>
 				          </div>
 				        </div>
 				      </div>
