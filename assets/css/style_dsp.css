@@ -32,38 +32,18 @@ h1
 {
   color: white;
 }
-h2 {
-	font-family: Earth, serif;
-}
 
 /*---------------------------CARD---------------------------*/
-.card {
-	margin: 0 10px;
-}
-.card-group {
-	margin:10px;
-}
-.col-left .card img{
-	height: 120px;
-}
-.col-left
+.first
 {
   border: solid white;
-  border-radius: 20px; 
+  border-radius: 30px; 
+}
+
+.card
+{
+  border-radius: 20px;
   overflow: hidden;
-}
-
-.metal
-{
-  margin-left: -50px; 
-  margin-right: -50px;
-	padding: 5px;
-	
-}
-
-h3
-{
-  font-size: 1.2em;
 }
 
 hr {
@@ -83,18 +63,17 @@ hr:after {
     top: -13px;
 }
 
-/*---------------------------ACCORDION---------------------------*/
-.twin
+.card-img-top 
 {
-  border: solid white;
-  border-radius: 20px; 
-  overflow: hidden;
+  width: 250px;
+  height: 150px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.two
-{
-  background-color: white;
-}
+
+/*---------------------------ACCORDION---------------------------*/
 
 /*-----------------CHECKBOX------------------*/
 
@@ -106,7 +85,7 @@ li {
   display: inline-block;
 }
 
-input[type="radio"][id^="myCheckbox"] {
+input[type="checkbox"][id^="myCheckbox"] {
   display: none;
 }
 

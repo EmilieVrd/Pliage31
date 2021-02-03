@@ -1,4 +1,3 @@
-​
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,203 +16,264 @@
 	<!--________________________________________ HEADER ___________________________________________-->
 	<header>
 		<?php require 'header.php' ;?>
-	</header>
+	</header>	
 	<!--________________________________________ /HEADER___________________________________________-->
+
+
 	<!--________________________________________TITRE ___________________________________________-->
 	<div class="text-center">
 		<h1>Dessinez votre pièce sur mesure !</h1>
 	</div>
 	<!--_______________________________________/TITRE ___________________________________________-->
+
+
 	<!--________________________________________ PAGE ___________________________________________-->
-	<div class="container my-4">
-		<div class="row">
-			<div class="col-lg-6 col-left">
-				<!--------------------------------------CARD------------------------------------->
-				<div class="metal text-center bg-light rounded">
-					<h2>Choisissez Votre Matériau</h2>
-				</div>
-				<div class="row">
-					<!--.second slide-->
-					<div class="card-group">
-						<div class="card ">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesperf.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Tôles perforées</h3>
-						</div>
-						<a class="card stretched-link" data-toggle="collapse" data-target="#tôlegalva">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesgalva.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Tôles Galvanisées</h3>
-						</a>
-						<a class="card stretched-link" data-toggle="collapse" data-target="#tôleelectro">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/toleselectro.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Tôles électro-zinguées</h3>
-						</a>
+
+<div class="container-fluid my-4">
+	<div class="row">
+		<div class="col-lg-6">
+					<!--------------------------------------CARD------------------------------------->
+
+
+
+<div class="container my-3 first">
+	<div class="metal py-1 text-center bg-light"><h2>Choisissez Votre Tôle</h2></div>
+   				 <div class="container my-4">
+   				 	<div class="row">
+				    <!--.second slide-->
+				      <div class="col-md-4" >
+				       <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/toles/tolesperf.png" alt="Tôles perforées">
+				          <div class="card-body">
+				            <h2 class="card-title">Tôles perforées</h2>
+				            
+				            <a class="btn btn-primary">Choisir</a>
+				          </div>
+				        </div>
+				      </div>
+
+				      <div class="col-md-4" >
+				        <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/toles/tolesgalva.png" alt="Tôles Galvanisées">
+				          <div class="card-body">
+				            <h2 class="card-title">Tôles Galvanisées</h2>
+				            
+				            <a class="btn btn-primary">Choisir</a>
+				          </div>
+				        </div>
+				      </div>
+
+				      <div class="col-md-4" >
+				        <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/toles/toleselectro.png" alt="Tôles électro-zinguées">
+				          <div class="card-body">
+				            <h2 class="card-title">Tôles électro-zinguées</h2>
+				            
+				            <a class="btn btn-primary">Choisir</a>
+				          </div>
+				        </div>
+				      </div>
+				      
 					</div>
+					<!--/row-->
 				</div>
-				<!--/row-->
 				<!--/.container-->
-				<hr/>
-				<div class="row">
-					<!--.second slide-->
-					<div class="card-group">
-						<div class="card">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesDKP.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Tôles en acier DKP</h3>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesacierlamée.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Tôles en aciers larmées</h3>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/alu/aluannodisé.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Aluminium Anodisé</h3>
-						</div>
+<hr/>
+   				 <div class="container my-4">
+   				 	<div class="row">
+				    <!--.second slide-->
+				      <div class="col-md-4" >
+				       <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/toles/tolesDKP.png" alt="Tôles en acier DKP">
+				          <div class="card-body">
+				            <h2 class="card-title">Tôles en acier DKP</h2>
+				            
+				            <a class="btn btn-primary">Choisir</a>
+				          </div>
+				        </div>
+				      </div>
+
+				      <div class="col-md-4" >
+				        <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/toles/tolesacierlamée.png" alt="Tôles en aciers larmées">
+				          <div class="card-body">
+				            <h2 class="card-title">Tôles en aciers larmées</h2>
+				            
+				            <a class="btn btn-primary">Choisir</a>
+				          </div>
+				        </div>
+				      </div>
+
+				      <div class="col-md-4" >
+				        <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/alu/aluannodisé.png" alt="Aluminium Annodisé">
+				          <div class="card-body">
+				            <h2 class="card-title">Aluminium Anodisé</h2>
+				            
+				            <a class="btn btn-primary">Choisirn</a>
+				          </div>
+				        </div>
+				      </div>
+				      
 					</div>
-					<!--card group-->
+					<!--/row-->
 				</div>
-				<!--/row-->
 				<!--/.container-->
-				<hr/>
-				<div class="row">
-					<!--.second slide-->
-					<div class="card-group">
-						<div class="card">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/alu/alubrut.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Aluminium Brut</h3>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/alu/aludamiers.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Aluminium Damiers</h3>
-						</div>
-						<div class="card">
-							<img class="card-img-top" src="../assets/images/dessiner_piece/alu/alulaquées.png" alt="Card image cap">
-							<h3 class="card-title my-auto text-center">Tôles aluminium Laquées RAL</h3>
-						</div>
+<hr/>
+  				 <div class="container my-4">
+   				 	<div class="row">
+				    <!--.second slide-->
+				      <div class="col-md-4" >
+				       <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/alu/alubrut.png" alt="Aluminium Brut">
+				          <div class="card-body">
+				            <h2 class="card-title">Aluminium Brut</h2>
+				            
+				            <a class="btn btn-primary">Choisir</a>
+				          </div>
+				        </div>
+				      </div>
+
+				      <div class="col-md-4" >
+				        <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/alu/aludamiers.png" alt="Aluminium en Damiers">
+				          <div class="card-body">
+				            <h2 class="card-title">Aluminium Damiers</h2>
+				            
+				            <a class="btn btn-primary">Choisir</a>
+				          </div>
+				        </div>
+				      </div>
+
+				      <div class="col-md-4" >
+				        <div class="card mb-auto">
+				          <img class="card-img-top"
+				            src="../assets/images/galeries/dessin_piece/alu/alulaquées.png" alt="Aluminium Laquées RAL">
+				          <div class="card-body">
+				            <h2 class="card-title">Tôles aluminium Laquées  RAL</h2>
+				            
+				            <a class="btn btn-primary">Choisir</a>
+				          </div>
+				        </div>
+				      </div>
+
 					</div>
-					<!--card group-->
+					<!--/row-->
 				</div>
-				<!--/row-->
 				<!--/.container-->
-				<!--/.container-->
+</div>
+<!--/.container-->
+
+
+		</div>
+		<!--/Col-->
+					<!--------------------------------------ACCORDEON------------------------------------->
+
+		<div class="col-lg-6">
+
+
+		<div class="container my-4">
+			<div id="accordion">
+			  <div class="card">
+			    <div class="card-header" id="headingOne">
+			      <h3 class="mb-0">
+			        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          TEXTURES
+			        </button>
+			      </h3>
+			    </div>
+
+			    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+			      <div class="card-body">
+			        
+			      	<p>Veuillez choisir une texture :</p>
+
+					<ul>
+					  <li>
+					    <input type="checkbox" id="myCheckbox1" />
+					    <label for="myCheckbox1"><img src="../assets/images/dessiner_piece/textures/sat.png" /></label>
+					  </li>
+
+					  <li>
+					    <input type="checkbox" id="myCheckbox2" />
+					    <label for="myCheckbox2"><img src="../assets/images/dessiner_piece/textures/mat.png" /></label>
+					  </li>
+
+					  <li>
+					    <input type="checkbox" id="myCheckbox3" />
+					    <label for="myCheckbox3"><img src="../assets/images/dessiner_piece/textures/piedra.png" /></label>
+					  </li>
+					</ul>
+
+			      </div>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <div class="card-header" id="headingTwo">
+			      <h3 class="mb-0">
+			        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          MESURES
+			        </button>
+			      </h3>
+			    </div>
+			    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+			      <div class="card-body">
+			        
+			      	<p>Custom Radio Buttons</p>
+
+			      	<div></div>
+					<label class="container">ep 1.5 mm, format 1500x3000
+					  <input type="radio" checked="checked" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="container">ep 1 mm, format 1500x3000
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="container">ep 1.5 mm,format 1500x3000 et 1500x4000
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<label class="container"> ep 1 mm, format 1500x3000
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+
+			      </div>
+			    </div>
+			  </div>
 			</div>
-			<!--/Col-->
-			<div class="col-lg-6 twin two my-1">
-				<div class="title_container py-3 text-center bg-light">
-					<h2>Je sais pas encore</h2>
-				</div>
-				<!--TEXTURE-->
-				<button class="btn btn-primary" data-toggle="collapse" data-target="#texture" aria-expanded="true" aria-controls="texture">TEXTURE</button>
-				<p>Veuillez choisir une texture :</p>
-				<ul class="collapse" id="texture">
-					<li>
-						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="myCheckbox1">
-							<label class="form-check-label" for="myCheckbox1">
-								<img src="../assets/images/dessiner_piece/textures/sat.png" />
-							</label>
-						</div>
-					</li>
-					<li>
-						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="myCheckbox2">
-							<label class="form-check-label" for="myCheckbox2">
-								<img src="../assets/images/dessiner_piece/textures/mat.png" />
-							</label>
-						</div>
-					</li>
-					<li>
-						<div class="form-check">
-							<input class="form-check-input" type="radio" name="flexRadioDefault" id="myCheckbox3">
-							<label class="form-check-label" for="myCheckbox3">
-								<img src="../assets/images/dessiner_piece/textures/piedra.png" />
-							</label>
-						</div>
-					</li>
-				</ul>
-				<hr/>
-				<!--EPAISSEUR-->
-				<button class="btn btn-primary show" aria-expanded="false" aria-controls="épaisseur">EPAISSEUR</button>
-				<div class="collapse show" id="épaisseur">
-					<div class="collapse" id="tôlegalva">
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">0.8mm</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">1mm</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">1,5 mm</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">2mm</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">4mm</span>
-					</label>
-					</div>
-					<div class="collapse" id="tôleelectro">
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">1,5 mm</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">2mm</span>
-					</label>
-					</div>
-				</div>
-				<hr/>
-				<!--FORMAT-->
-				<button class="btn btn-primary
- collapsed" data-toggle="collapse" data-target="#format" aria-expanded="false" aria-controls="format">FORMAT</button>
-				<div class="radio2 collapse" id="format">
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio1">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">format</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio1">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">format</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio1">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">format</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio1">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">format</span>
-					</label>
-					<label class="radio radio-gradient"> <span class="radio__input">
-						    <input type="radio" name="radio">
-						    <span class="radio__control"></span>
-						</span> <span class="radio__label">format</span>
-					</label>
-				</div>
-			</div>
-			<!--container-->
+		</div>
+		<!--container-->
+
+
 		</div>
 		<!--/Col-->
 	</div>
 	<!--/Row-->
-	</div>
-	<!--/Container-Fluid-->
+</div>
+<!--/Container-Fluid-->
+
+
 	<!--________________________________________ /PAGE ___________________________________________-->
+
+
+
+
+
+
+
+
 	<!--________________________________________ FOOTER ___________________________________________-->
+	
 	<footer>
 		<?php require 'footer.php' ;?>
 	</footer>
