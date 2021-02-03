@@ -52,7 +52,7 @@
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/finition_porte_fenetre/finitions_habillage (1).jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/finition_porte_fenetre/finitions_habillage (2).jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Entourage de fenetre aluminium RAL 7016 satiné.</p>
             </div>
           </div>
@@ -71,7 +71,7 @@
       </div>
 	<!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1>Nos finitions</h1>
           <h2>Pour Portes et Fenêtres</h2>
         </div>
@@ -86,13 +86,13 @@
             <!-- main slider carousel items -->
             <div class="carousel-inner text-center pb-4">
               <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/finition_porte_fenetre/finitions_mirail (1).jpg" width="600" class="img-fluid">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption ">
                   <p class="h5">Baguette de finition</p>
                 </div>
               </div>
               <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/finition_porte_fenetre/finitions_mirail (2).jpg" width="600" class="img-fluid"></div>
               <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/finition_porte_fenetre/finitions_mirail (3).jpg" width="600" class="img-fluid">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption ">
                   <p class="h5">Habillage de tableau en alu</p>
                 </div>
               </div>
@@ -110,7 +110,7 @@
           </div>
     	<!-- caption slideshow -->
           <div class="main-text mx-auto">
-            <div class="col-md-12 d-none d-md-block text-center caption">
+            <div class="col-md-12  text-center caption">
               <h1>Nos finitions</h1>
               <h2>Pour Portes et Fenêtres</h2>
             </div>
@@ -126,12 +126,12 @@
          <!-- main slider carousel items -->
          <div class="carousel-inner text-center pb-4">
            <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/finition_porte_fenetre/finitions_castanet (1).jpg" width="600" class="img-fluid">
-             <div class="carousel-caption d-none d-md-block">
+             <div class="carousel-caption ">
                <p class="h5">Alu brut soudé et laqué</p>
              </div>
            </div>
            <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/finition_porte_fenetre/finitions_castanet (2).jpg"  class="img-fluid">
-             <div class="carousel-caption d-none d-md-block">
+             <div class="carousel-caption ">
                <p class="h5">Entourages de fenetres  monobloc en aluminium sur mesures données par le client</p>
              </div>
            </div>
@@ -144,7 +144,7 @@
        </div>
    <!-- caption slideshow -->
        <div class="main-text mx-auto">
-         <div class="col-md-12 d-none d-md-block text-center caption">
+         <div class="col-md-12  text-center caption">
            <h1>Nos finitions</h1>
            <h2>Pour Portes et Fenêtres</h2>
          </div>
@@ -157,7 +157,7 @@
   </div>
 	<!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1>Nos finitions</h1>
           <h2>Pour Portes et Fenêtres</h2>
         </div>

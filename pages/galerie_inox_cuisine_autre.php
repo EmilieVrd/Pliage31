@@ -57,7 +57,7 @@
         <!-- main slider carousel items -->
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/inox_cuisine_autre/inox_1.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Crédence inox 304 L</p>
             </div>
           </div>
@@ -74,7 +74,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1>Inox Cuisines et autres</h1>
           <h3>  </h3>
         </div>
@@ -105,7 +105,7 @@
         <!-- main slider carousel items -->
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/inox_cuisine_autre/inox_4.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Habillage de bar et plan de travail inox</p>
             </div>
           </div>
@@ -120,7 +120,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1>Inox Cuisines et autres</h1>
           <h3>  </h3>
         </div>

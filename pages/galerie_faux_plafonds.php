@@ -63,12 +63,12 @@
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/faux_plafonds/fp_1.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/faux_plafonds/fp_2.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/faux_plafonds/fp_3.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Fixations invisibles</p>
             </div>
           </div>
           <div class="carousel-item" data-slide-number="3"> <img src="../assets/images/galeries/faux_plafonds/fp_4.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Pose sur ossature tube 30x30</p>
             </div>
           </div>
@@ -84,7 +84,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1>Nos Faux Plafonds</h1>
           <h3>  </h3>
         </div>
@@ -116,12 +116,12 @@
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/faux_plafonds/fp_5.jpg" width="600" class="img-fluid"> </div>
           <div class="carousel-item" data-slide-number="1"> <img src="../assets/images/galeries/faux_plafonds/fp_6.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Fixations équerres en plafond</p>
             </div>
           </div>
           <div class="carousel-item" data-slide-number="2"> <img src="../assets/images/galeries/faux_plafonds/fp_7.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Métal déployé sur fer à T</p>
             </div>
           </div>
@@ -136,7 +136,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1>Nos Faux Plafonds</h1>
           <h3>  </h3>
         </div>
@@ -170,7 +170,7 @@
         <!-- main slider carousel items -->
         <div class="carousel-inner text-center pb-4">
           <div class="active carousel-item" data-slide-number="0"> <img src="../assets/images/galeries/faux_plafonds/fp_8.jpg" width="600" class="img-fluid">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption ">
               <p class="h5">Lames alu pliées ep 1.5 mm</p>
             </div>
           </div>
@@ -186,7 +186,7 @@
       </div>
   <!-- caption slideshow -->
       <div class="main-text mx-auto">
-        <div class="col-md-12 d-none d-md-block text-center caption">
+        <div class="col-md-12  text-center caption">
           <h1>Nos Faux Plafonds</h1>
           <h3>  </h3>
         </div>

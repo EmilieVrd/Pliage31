@@ -117,7 +117,7 @@ img {
   height: 12rem;
   overflow: hidden;
   flex: 1;
-  min-width: 290px;
+  min-width: 240px;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -166,7 +166,11 @@ img {
     position: relative;
     z-index: -1;
   }
-
+@media all and (max-width: 767px) {
+    .news-card {
+        height: 19rem;
+    }
+}
 .news-card__text-wrapper {
     position: absolute;
     bottom: 0rem;
