@@ -1,0 +1,135 @@
+/*Styling of varibale content in pages*/
+/*See header.css to style the navbar*/
+/*See footer.css to style the page's bottom*/
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
+@font-face{
+	font-family: "Earth";
+	src: url('../fonts/earthorbiter.ttf');
+}
+
+:root{
+  --first-theme-color: #036cb0; /*Lighter blue of the three*/
+  --second-theme-color: #035483;
+  --third-theme-color:  #033651; /*Darkest blue of the three*/
+  --font-theme-color: black;
+  --footer-color: #3d3d3d;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Advent Pro', sans-serif;
+
+}
+body {
+/*background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 36%, rgba(3,108,176,1) 77%, rgba(61,61,61,1) 95%);*/
+	background-color: var(--third-theme-color);
+
+}
+
+h1
+{
+  color: white;
+}
+
+/*---------------------------CARD---------------------------*/
+.first
+{
+  border: solid white;
+  border-radius: 30px; 
+}
+
+.card
+{
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid white;
+    color: white;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #white;
+    content: '';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+/*---------------------------ACCORDION---------------------------*/
+
+/*-----------------CHECKBOX------------------*/
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+input[type="checkbox"][id^="myCheckbox"] {
+  display: none;
+}
+
+label {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+label img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+}
+
+:checked + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  /* box-shadow: 0 0 5px #333; */
+  z-index: -1;
+}
+
+/*-----------------RADIO------------------*/
+
