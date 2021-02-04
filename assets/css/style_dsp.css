@@ -40,11 +40,17 @@ h2 {
 .card {
 	margin: 0 10px;
 }
-.card-group {
-	margin:10px;
+.col-lg-4 {
+	margin: 0;
+	padding: 0;
 }
-.col-left .card img{
-	height: 120px;
+
+.ctn-first .card img{
+	height: 100px;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
 }
 .col-left
 {
@@ -58,7 +64,12 @@ h2 {
   margin-left: -50px; 
   margin-right: -50px;
 	padding: 5px;
-	
+}
+@media all and (max-width:768px) {
+	.ctn-first, .ctn-second {
+		width: 75%;
+		margin: 0 auto;
+	}
 }
 
 h3

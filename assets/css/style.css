@@ -47,6 +47,10 @@ img {
 .carousel-inner {
 		border-radius: 10px;
 }
+.carousel-item > img {
+	max-height: 400px;
+	object-fit: cover;
+}
 @media (max-width: 900px) {
 	.carousel {
 		width: 100%;
