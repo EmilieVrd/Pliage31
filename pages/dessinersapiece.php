@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+​<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -32,70 +32,69 @@
 					<h2>Nos matériaux</h2>
 				</div>
 			</div>
-				<div class="row no-gutters">
+			<div class="row no-gutters my-2">
 				<div class="col-md-4 my-auto">
-				<div class="card-group">
-					<div class="card ">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesperf.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Tôles perforées</h3>
+					<div class="card-group">
+						<div class="card ">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesperf.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Tôles perforées</h3>
+						</div>
+						<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#tôlegalva">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesgalva.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Tôles Galvanisées</h3>
+						</a>
+						<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#tôleelectro">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/toleselectro.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Tôles électro-zinguées</h3>
+						</a>
 					</div>
-					<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#tôlegalva">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesgalva.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Tôles Galvanisées</h3>
-					</a>
-					<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#tôleelectro">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/toles/toleselectro.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Tôles électro-zinguées</h3>
-					</a>
+				</div>
+				<div class="col-md-4 my-auto">
+					<div class="card-group">
+						<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#epDKP">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesDKP.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Tôles en acier DKP</h3>
+						</a>
+						<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#epTôleLarmée">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesacierlamée.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Tôles en aciers larmées</h3>
+						</a>
+						<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#epTôleAnod">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/alu/aluannodisé.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Aluminium Anodisé</h3>
+						</a>
 					</div>
-					</div>
-								<div class="col-md-4  my-auto">
-				<div class="card-group">
-					<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#epDKP">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesDKP.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Tôles en acier DKP</h3>
-					</a>
-					<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#epTôleLarmée">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/toles/tolesacierlamée.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Tôles en aciers larmées</h3>
-					</a>
-					<a class="card stretched-link text-decoration-none" data-toggle="collapse" data-target="#epTôleAnod">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/alu/aluannodisé.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Aluminium Anodisé</h3>
-					</a>
-									</div>
-									</div>
-								<div class="col-md-4 my-auto">
-				<div class="card-group">
-					<div class="card">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/alu/alubrut.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Aluminium Brut</h3>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/alu/aludamiers.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Aluminium Damiers</h3>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="../assets/images/dessiner_piece/alu/alulaquées.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Tôles aluminium Laquées RAL</h3>
-					</div>
+				</div>
+				<div class="col-md-4 my-auto">
+					<div class="card-group">
+						<div class="card">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/alu/alubrut.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Aluminium Brut</h3>
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/alu/aludamiers.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Aluminium Damiers</h3>
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="../assets/images/dessiner_piece/alu/alulaquées.png" alt="Card image cap">
+							<h3 class="card-title my-auto text-center">Tôles Alu Laquées RAL</h3>
+						</div>
 					</div>
 					<!--card group-->
 				</div>
-				</div>
+			</div>
 			<!--/Col-->
 		</div>
 		<!--/row-->
 	</div>
-
 	<!--/Container-->
 	<div class="container col-left my-4 ctn-second">
 		<div class="metal text-center bg-light rounded">
 			<h2>Nos options</h2>
 		</div>
-		<div class="row">
+		<div class="row mb-2">
 			<!--------------------------------------CARD------------------------------------->
-			<div class="col-lg-4">
+			<div class="col-lg-6">
 				<h3 class="text-center text-white">Finitions</h3>
 				<div class="card-group">
 					<div class="card ">
@@ -104,7 +103,7 @@
 					</div>
 					<div class="card  text-decoration-none">
 						<img class="card-img-top" src="../assets/images/dessiner_piece/textures/piedra.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Piedra</h3>
+						<h3 class="card-title my-auto text-center">PIEDRA</h3>
 					</div>
 					<div class="card  text-decoration-none">
 						<img class="card-img-top" src="../assets/images/dessiner_piece/textures/sat.png" alt="Card image cap">
@@ -112,7 +111,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 text-white">
+			<div class="col-lg-6 text-white">
 				<h3 class="text-center text-white">Epaisseur</h3>
 				<div class="collapse show" id="épaisseur">
 					<div class="collapse" id="epTôleAnod" data-parent="#épaisseur">
@@ -191,9 +190,10 @@
 						</label>
 					</div>
 				</div>
+				<!--card group-->
 			</div>
 			<!--col-->
-			<div class="col-lg-4">
+			<!--<div class="col-lg-4">
 				<h3 class="text-center text-white">Couleurs</h3>
 				<div class="card-group">
 					<div class="card">
@@ -206,11 +206,11 @@
 					</div>
 					<div class="card">
 						<img class="card-img-top" src="../assets/images/dessiner_piece/alu/alulaquées.png" alt="Card image cap">
-						<h3 class="card-title my-auto text-center">Tôles aluminium Laquées RAL</h3>
+						<h3 class="card-title my-auto text-center">Tôles Alu Laquées RAL</h3>
 					</div>
 				</div>
-				<!--card group-->
-			</div>
+				!--card group--
+			</div>-->
 			<!--/Col-->
 		</div>
 		<!--/row-->
