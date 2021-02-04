@@ -3,8 +3,8 @@
 /*See footer.css to style the page's bottom*/
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&display=swap');
 @font-face{
-	font-family: "Earth";
-	src: url('../fonts/earthorbiter.ttf');
+  font-family: "Earth";
+  src: url('../fonts/earthorbiter.ttf');
 }
 
 :root{
@@ -14,6 +14,7 @@
   --font-theme-color: black;
   --footer-color: #3d3d3d;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,10 +22,11 @@
   font-family: 'Advent Pro', sans-serif;
 
 }
+
 body {
 /*background: rgb(255,255,255);
 background: linear-gradient(180deg, rgba(255,255,255,1) 36%, rgba(3,108,176,1) 77%, rgba(61,61,61,1) 95%);*/
-	background-color: var(--third-theme-color);
+  background-color: var(--third-theme-color);
 
 }
 
@@ -33,18 +35,24 @@ h1
   color: white;
 }
 h2 {
-	font-family: Earth, serif;
+  font-family: Earth, serif;
 }
 
 /*---------------------------CARD---------------------------*/
 .card {
-	margin: 0 10px;
+  margin: 0 10px;
 }
-.card-group {
-	margin:10px;
+.col-lg-4 {
+  margin: 0;
+  padding: 0;
 }
-.col-left .card img{
-	height: 120px;
+
+.ctn-first .card img{
+  height: 100px;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
 }
 .col-left
 {
@@ -57,8 +65,13 @@ h2 {
 {
   margin-left: -50px; 
   margin-right: -50px;
-	padding: 5px;
-	
+  padding: 5px;
+}
+@media all and (max-width:768px) {
+  .ctn-first, .ctn-second {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 h3
@@ -163,4 +176,3 @@ label img {
 }
 
 /*-----------------RADIO------------------*/
-
