@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Galerie Inox cuisine et autres</title>
+  <link rel="icon" href="favicon.ico" />
   <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="../assets/css/style_pages.css" rel="stylesheet" type="text/css">
   <link href="../assets/css/header.css" rel="stylesheet" type="text/css">

@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pliage31</title>
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="assets/css/header.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/footer.css" rel="stylesheet" type="text/css">
@@ -128,60 +128,55 @@
       </div>
     </div>
     <!--CARDS SECTION NOTRE SAVOIR FAIRE-->
-    <section id="">
+    <section>
       <div class="container">
         <div class="content-wrapper">
           <div class="news-card mx-4">
-            <a href="#" class="news-card__card-link"></a>
             <img src="https://www.pliage31.com/s/cc_images/cache_68027363.jpg?t=1552301316" alt="photo couvertine alu" class="news-card__image">
             <div class="news-card__text-wrapper">
               <h2 class="news-card__title">Couvertines et Anti-goutte</h2>
               <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Fabrication de couvertine et ATG alu RAL, acier, inox...</p> <a href="#" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
+                <p class="news-card__excerpt">Fabrication de couvertine et ATG alu RAL, acier, inox...</p> <a href="pages/galerie_couvertine.php" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
               </div>
             </div>
           </div>
           <!-- CARDS COUVERTINES ET ANTI-GOUTTES -->
           <div class="news-card mx-4">
-            <a href="#" class="news-card__card-link"></a>
             <img src="https://www.pliage31.com/s/cc_images/cache_68133538.jpg?t=1553004923" alt="photo finitions portes et fenêtres" class="news-card__image">
             <div class="news-card__text-wrapper">
               <h2 class="news-card__title">Finitions portes et fenêtres</h2>
               <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Entourage de porte et fenêtre, Habillage de tableau en alu, Baguette de finition.</p> <a href="#" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
+                <p class="news-card__excerpt">Entourage de porte et fenêtre, Habillage de tableau en alu, Baguette de finition.</p> <a href="pages/galerie_finitions.php" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
               </div>
             </div>
           </div>
           <!-- CARDS HABILLAGES ET FAÇADES -->
           <div class="news-card mx-4">
-            <a href="#" class="news-card__card-link"></a>
             <img src="https://www.pliage31.com/s/cc_images/cache_68036176.jpg?t=1552314854" alt="Habillage de façades" class="news-card__image">
             <div class="news-card__text-wrapper">
               <h2 class="news-card__title">Habillages de façades</h2>
               <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Habillage de bandeau: ossature, pose de cassettes, bardage, bandeaux et sous-façe.</p> <a href="#" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
+                <p class="news-card__excerpt">Habillage de bandeau: ossature, pose de cassettes, bardage, bandeaux et sous-façe.</p> <a href="pages/galerie_façade.php" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
               </div>
             </div>
           </div>
           <!-- CARDS FAUX PLAFONDS -->
           <div class="news-card mx-4">
-            <a href="#" class="news-card__card-link"></a>
             <img src="https://www.pliage31.com/s/cc_images/cache_68036186.jpg?t=1552315686" alt="Faux plafonds" class="news-card__image">
             <div class="news-card__text-wrapper">
               <h2 class="news-card__title">Faux-plafonds</h2>
               <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Lames, Métal déployé sur fet à T, Fixations invisibles.</p> <a href="#" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
+                <p class="news-card__excerpt">Lames, Métal déployé sur fet à T, Fixations invisibles.</p> <a href="pages/galerie_faux_plafonds.php" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
               </div>
             </div>
           </div>
           <!-- CARDS INOX POUR CUISINES ET AUTRES -->
           <div class="news-card mx-4">
-            <a href="#" class="news-card__card-link"></a>
             <img src="https://www.pliage31.com/s/cc_images/cache_68133586.jpg?t=1553005233" alt="Inox pour cuisines et autres" class="news-card__image">
             <div class="news-card__text-wrapper">
               <h2 class="news-card__title">Inox pour cuisines et autres</h2>
               <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Habillage en inox complet pour cuisine et autres pose en inox.</p> <a href="#" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
+                <p class="news-card__excerpt">Habillage en inox complet pour cuisine et autres pose en inox.</p> <a href="pages/galerie_inox_cuisine_autre.php" class="news-card__read-more">Voir la galerie <i class="fas fa-long-arrow-alt-right"></i></a> 
               
               </div>
             </div>
@@ -201,7 +196,7 @@
       <h1 class="display-5"><span class="gné">Sur-mesure</span></h1>
       <p class="lead">Nous sommes à votre disposition pour réaliser vos pièces en fonction de vos choix de taille, matériau et angle.</p>
       <p>Afin de répondre au mieux à vos besoins de pliages nous tenons un large stock de matières.</p>
-      <p class="lead"> <a class="btn btn-primary btn-lg" href="#" role="button">Dessinez votre pièce</a> 
+      <p class="lead"> <a class="btn btn-primary btn-lg" href="pages/dessinersapiece.php" role="button">Commandez votre pièce sur-mesure</a> 
       </p>
     </div>
   </div>
@@ -212,34 +207,31 @@
         <div class="card-deck">
           <!-- CARD TOLES ALU RAL -->
           <div class="news-card mx-4">
-            <a href="#" class="news-card__card-link"></a>
             <img src="https://www.pliage31.com/s/cc_images/cache_29561169.jpg?t=1408747350" alt="Images Tôles alu RAL" class="news-card__image">
             <div class="news-card__text-wrapper">
               <h2 class="news-card__title">Tôles alu RAL</h2>
               <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Afin de vous faire gagner du temps nous tenons de nombreuses références d'aluminium laqué RAL en stock permanent.</p> <a class="btn btn-primary btn-lg" href="#" role="button">Liste des couleurs en stock</a> 
+                <p class="news-card__excerpt">Afin de vous faire gagner du temps nous tenons de nombreuses références d'aluminium laqué RAL en stock permanent.</p> <a class="btn btn-primary btn-lg" href="pages/dessinersapiece.php" role="button">Liste des couleurs en stock</a> 
               </div>
             </div>
           </div>
           <!-- CARD LES AUTRES ALUMINIUMS -->
           <div class="news-card mx-4">
-            <a href="#" class="news-card__card-link"></a>
             <img src="https://www.pliage31.com/s/cc_images/cache_29599670.jpg?t=1408871650" alt="Images autres aluminium" class="news-card__image">
             <div class="news-card__text-wrapper">
               <h2 class="news-card__title">Les autres aluminiums</h2>
               <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Nous tenons également un large stock de feuilles d'aluminium brut, anodisé,et damiers en différents formats et épaisseurs.</p> <a class="btn btn-primary btn-lg" href="#" role="button">Liste des autres matières en stock</a> 
+                <p class="news-card__excerpt">Nous tenons également un large stock de feuilles d'aluminium brut, anodisé,et damiers en différents formats et épaisseurs.</p> <a class="btn btn-primary btn-lg" href="pages/dessinersapiece.php" role="button">Liste des autres matières en stock</a> 
               </div>
             </div>
           </div>
           <!-- CARD TOLES ACIER -->
           <div class="news-card mx-4">
-            <a href="#" class="news-card__card-link"></a>
             <img src="https://www.pliage31.com/s/cc_images/cache_29561739.jpg?t=1476981127" alt="Images Tôles Aciers" class="news-card__image">
             <div class="news-card__text-wrapper">
               <h2 class="news-card__title">Tôles acier</h2>
               <div class="news-card__details-wrapper">
-                <p class="news-card__excerpt">Perforées, larmées, éléctro-zinguées.. galvanisées ou en inox.</p> <a class="btn btn-primary btn-lg" href="#" role="button">Liste des autres matières en stock</a> 
+                <p class="news-card__excerpt">Perforées, larmées, éléctro-zinguées.. galvanisées ou en inox.</p> <a class="btn btn-primary btn-lg" href="pages/dessinersapiece.php" role="button">Liste des autres matières en stock</a> 
               </div>
             </div>
           </div>
@@ -255,7 +247,7 @@
       <div class="row">
         <div class="col-lg-6 text-center">
           <!-- Pour modifier l'image il faudra changer le lien dans "img src=" ci-dessous-->
-          <img src="assets/images/section/background.jpg" max-height="50px">
+          <img src="assets/images/section/background.jpg">
         </div>
         <div class="col-lg-6 my-auto text-center">
           <h2><span class="gné">Nous contacter</span></h2>
@@ -300,7 +292,7 @@
       <div class="row text-center">
           <div class="col-lg-12">
               <div class="card-header">
-                  <img src="assets/images/logo/logo_white.png">
+                  <img src="assets/images/logo/logo_white.png" alt="logo Pliage31">
               </div>
               <p>Pliage 31 2 imp. Raymond Loewy 31140 Aucamville Téléphone : 05 62 10 26 22 Fax :05.62.10.54.20 Email : contact@pliage31.com</p>© Pliage31 | <a href="../pages/mentionslegales.php/">Mentions légales</a>
               <div class="accespages">
@@ -315,7 +307,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/630dbf8ee1.js" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

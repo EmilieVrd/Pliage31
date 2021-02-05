@@ -56,6 +56,13 @@ img {
 		width: 100%;
 		height: auto;
 	}
+	.carousel-item > img {
+	max-height: 200px;
+	object-fit: cover;
+	}
+	.main-text h1, .main-text h3{
+		font-size: 1.4em;
+		}
 }
 /****************************/
 /**STATIC CAPTION SLIDESHOW**/
